@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<ApeEngine>
+	<!--Ape Engine map file :)-->
+	<Character name="naruto" mSpeed="9.0" mAcceleration="2.4" mInitialRadius="0.1" mInitialHeight="1.0" mScale="1.5" mSkinwidth="0.01" mJumpStrength="25.0" mTurnReactionSpeed="445.0" mTimestepMultiplier="1.0" mSpeedMultiplier="1.0" mCharacterSpeed="0.1" mGravity="-0.5" mSensibility="0.005" mMouseSpeed="0.10" mInitRotDir1="0.0 1.0 0.0" mInitRotDegree1="180" mInitRotDir2="0.0 0.0 0.0" mInitRotDegree2="0">
+	</Character>
+</ApeEngine>

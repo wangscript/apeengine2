@@ -1,0 +1,377 @@
+04/05/2009 21:13:15 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+04/05/2009 21:13:15 (InfL1)	+                     Crazy Eddie's GUI System - Event log                    +
+04/05/2009 21:13:15 (InfL1)	+                          (http://www.cegui.org.uk/)                         +
+04/05/2009 21:13:15 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+04/05/2009 21:13:15 (InfL1)	CEGUI::Logger singleton created.
+04/05/2009 21:13:15 (InfL1)	---- Begining CEGUI System initialisation ----
+04/05/2009 21:13:15 (InfL1)	CEGUI::ImagesetManager singleton created
+04/05/2009 21:13:15 (InfL1)	CEGUI::FontManager singleton created.
+04/05/2009 21:13:15 (InfL1)	CEGUI::WindowFactoryManager singleton created
+04/05/2009 21:13:15 (InfL1)	CEGUI::WindowManager singleton created
+04/05/2009 21:13:15 (InfL1)	CEGUI::SchemeManager singleton created.
+04/05/2009 21:13:15 (InfL1)	CEGUI::MouseCursor singleton created.
+04/05/2009 21:13:15 (InfL1)	CEGUI::GlobalEventSet singleton created.
+04/05/2009 21:13:15 (InfL1)	CEGUI::WidgetLookManager singleton created.
+04/05/2009 21:13:15 (InfL1)	CEGUI::WindowRendererManager singleton created
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'DefaultWindow' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'DragContainer' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'ScrolledContainer' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'ClippedContainer' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Checkbox' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/PushButton' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/RadioButton' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Combobox' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/ComboDropList' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Editbox' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/FrameWindow' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/ItemEntry' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Listbox' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/ListHeader' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/ListHeaderSegment' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Menubar' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/PopupMenu' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/MenuItem' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/MultiColumnList' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/MultiLineEditbox' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/ProgressBar' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/ScrollablePane' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Scrollbar' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Slider' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Spinner' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/TabButton' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/TabControl' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Thumb' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Titlebar' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/Tooltip' windows added.
+04/05/2009 21:13:15 (InfL1)	WindowFactory for 'CEGUI/ItemListbox' windows added.
+04/05/2009 21:13:15 (InfL1)	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+04/05/2009 21:13:15 (InfL1)	CEGUI::System singleton created.
+04/05/2009 21:13:15 (InfL1)	---- CEGUI System initialisation completed ----
+04/05/2009 21:13:15 (InfL1)	---- Version 0.5.1 ----
+04/05/2009 21:13:15 (InfL1)	---- Renderer module is: CEGUI::OgreRenderer - Official Ogre based renderer module for CEGUI ----
+04/05/2009 21:13:15 (InfL1)	---- XML Parser module is: CEGUI::ExpatParser - Official expat based parser module for CEGUI ----
+04/05/2009 21:13:15 (InfL1)	---- Scripting module is: None ----
+04/05/2009 21:13:15 (InfL1)	Attempting to load Scheme from file 'TaharezLookSkin.scheme'.
+04/05/2009 21:13:15 (InfL2)	Started creation of Scheme 'TaharezLook' via XML file.
+04/05/2009 21:13:15 (InfL2)	Finished creation of Scheme 'TaharezLook' via XML file.
+04/05/2009 21:13:15 (InfL2)	Loaded GUI scheme 'TaharezLook' from data in file 'TaharezLookSkin.scheme'.
+04/05/2009 21:13:15 (InfL2)	---- Begining resource loading for GUI scheme 'TaharezLook' ----
+04/05/2009 21:13:15 (InfL1)	Attempting to create an Imageset from the information specified in file 'TaharezLook.imageset'.
+04/05/2009 21:13:15 (InfL1)	Started creation of Imageset from XML specification:
+04/05/2009 21:13:15 (InfL1)	---- CEGUI Imageset name: TaharezLook
+04/05/2009 21:13:15 (InfL1)	---- Source texture file: TaharezLook.tga in resource group: (Default)
+04/05/2009 21:13:15 (InfL2)	Finished creation of Imageset 'TaharezLook' via XML file.
+04/05/2009 21:13:15 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-12.font'.
+04/05/2009 21:13:15 (InfL1)	Started creation of FreeType Font:
+04/05/2009 21:13:15 (InfL1)	---- CEGUI font name: BlueHighway-12
+04/05/2009 21:13:15 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+04/05/2009 21:13:15 (InfL1)	---- Real point size: 12
+04/05/2009 21:13:15 (InfL1)	Succsessfully loaded 289 glyphs
+04/05/2009 21:13:15 (InfL2)	Finished creation of Font 'BlueHighway-12' via XML file.
+04/05/2009 21:13:15 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-10.font'.
+04/05/2009 21:13:15 (InfL1)	Started creation of FreeType Font:
+04/05/2009 21:13:15 (InfL1)	---- CEGUI font name: BlueHighway-10
+04/05/2009 21:13:15 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+04/05/2009 21:13:15 (InfL1)	---- Real point size: 10
+04/05/2009 21:13:15 (InfL1)	Succsessfully loaded 289 glyphs
+04/05/2009 21:13:15 (InfL2)	Finished creation of Font 'BlueHighway-10' via XML file.
+04/05/2009 21:13:15 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-8.font'.
+04/05/2009 21:13:15 (InfL1)	Started creation of FreeType Font:
+04/05/2009 21:13:15 (InfL1)	---- CEGUI font name: BlueHighway-8
+04/05/2009 21:13:15 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+04/05/2009 21:13:15 (InfL1)	---- Real point size: 8
+04/05/2009 21:13:16 (InfL1)	Succsessfully loaded 289 glyphs
+04/05/2009 21:13:16 (InfL2)	Finished creation of Font 'BlueHighway-8' via XML file.
+04/05/2009 21:13:16 (InfL1)	===== Falagard 'root' element: look and feel parsing begins =====
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Button'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Button'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/RadioButton'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/RadioButton'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Checkbox'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Checkbox'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Editbox'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Editbox'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Titlebar'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Titlebar'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/FrameWindow'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/FrameWindow'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/ProgressBar'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/ProgressBar'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/AltProgressBar'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/AltProgressBar'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/VUMeter'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/VUMeter'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/SliderThumb'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/SliderThumb'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Slider'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Slider'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/HorizontalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/HorizontalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/HorizontalScrollbar'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/HorizontalScrollbar'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/VerticalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/VerticalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/VerticalScrollbar'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/VerticalScrollbar'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Listbox'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Listbox'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/ComboDropList'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/ComboDropList'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/ComboEditbox'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/ComboEditbox'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Combobox'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Combobox'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Spinner'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Spinner'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticShared'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticShared'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticImage'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticImage'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticText'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticText'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/ListHeaderSegment'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/ListHeaderSegment'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/ListHeader'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/ListHeader'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/MultiColumnList'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/MultiColumnList'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/MultiLineEditbox'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/MultiLineEditbox'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Tooltip'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Tooltip'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/ScrollablePane'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/ScrollablePane'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabButton'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/TabButton'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabContentPane'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/TabContentPane'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabButtonPane'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/TabButtonPane'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabControl'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/TabControl'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/MenuItem'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/MenuItem'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/PopupMenu'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/PopupMenu'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/Menubar'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/Menubar'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/LargeVerticalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/LargeVerticalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/LargeVerticalScrollbar'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/LargeVerticalScrollbar'.
+04/05/2009 21:13:16 (InfL2)	---> Start of definition for widget look 'TaharezLook/ImageButton'.
+04/05/2009 21:13:16 (InfL2)	---< End of definition for widget look 'TaharezLook/ImageButton'.
+04/05/2009 21:13:16 (InfL1)	===== Look and feel parsing completed =====
+04/05/2009 21:13:16 (InfL1)	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Button' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Default' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Editbox' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/FrameWindow' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/ItemEntry' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/ListHeader' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/ListHeaderSegment' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Listbox' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Menubar' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/MenuItem' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/MultiColumnList' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/MultiLineEditbox' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/PopupMenu' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/ProgressBar' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/ScrollablePane' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Scrollbar' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Slider' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Static' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/StaticImage' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/StaticText' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/SystemButton' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/TabButton' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/TabControl' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Titlebar' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/ToggleButton' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/Tooltip' added.
+04/05/2009 21:13:16 (InfL1)	WindowRendererFactory 'Falagard/ItemListbox' added.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/Button'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'TaharezLook/Checkbox'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/ImageButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/ImageButton'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'TaharezLook/RadioButton'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' and Look'N'Feel 'TaharezLook/FrameWindow'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' and Look'N'Feel 'TaharezLook/Titlebar'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/SystemButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/SystemButton' and Look'N'Feel 'TaharezLook/Button'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'TaharezLook/Editbox'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' and Look'N'Feel 'TaharezLook/MultiLineEditbox'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' and Look'N'Feel 'TaharezLook/Menubar'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' and Look'N'Feel 'TaharezLook/PopupMenu'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' and Look'N'Feel 'TaharezLook/MenuItem'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/AlternateProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/AltProgressBar'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/ProgressBar'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/VUMeter' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/VUMeter'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/VerticalScrollbar'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/HorizontalScrollbar'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/VerticalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/HorizontalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/LargeVerticalScrollbar'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/LargeVerticalScrollbarThumb'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' and Look'N'Feel 'TaharezLook/TabButton'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' and Look'N'Feel 'TaharezLook/TabControl'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/TabContentPane'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/TabButtonPane'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' and Look'N'Feel 'TaharezLook/ComboDropList'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboEditbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'TaharezLook/ComboEditbox'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/Combobox'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' and Look'N'Feel 'TaharezLook/Listbox'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' and Look'N'Feel 'TaharezLook/ListHeader'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' and Look'N'Feel 'TaharezLook/ListHeaderSegment'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' and Look'N'Feel 'TaharezLook/MultiColumnList'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' and Look'N'Feel 'TaharezLook/Slider'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/SliderThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/SliderThumb'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' and Look'N'Feel 'TaharezLook/ScrollablePane'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/Spinner'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' and Look'N'Feel 'TaharezLook/Tooltip'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' and Look'N'Feel 'TaharezLook/StaticImage'.
+04/05/2009 21:13:16 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' and Look'N'Feel 'TaharezLook/StaticText'.
+04/05/2009 21:13:16 (InfL2)	---- Resource loading for GUI scheme 'TaharezLook' completed ----
+04/05/2009 21:13:16 (InfL2)	---- Beginning loading of GUI layout from 'puviewer.layout' ----
+04/05/2009 21:13:16 (InfL2)	Window 'root' of type 'DefaultGUISheet' has been created.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer' of type 'DefaultGUISheet' has been created.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/WindowPropertiesWindow' of type 'TaharezLook/FrameWindow' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/FrameWindow' to the window 'ParticleUniverseViewer/WindowPropertiesWindow'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/FrameWindow' to window 'ParticleUniverseViewer/WindowPropertiesWindow'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_titlebar__' of type 'TaharezLook/Titlebar' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Titlebar' to the window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_titlebar__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Titlebar' to window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_titlebar__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_closebutton__' of type 'TaharezLook/SystemButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/SystemButton' to the window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_closebutton__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_closebutton__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates' of type 'TaharezLook/Listbox' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Listbox' to the window 'ParticleUniverseViewer/ListboxTemplates'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Listbox' to window 'ParticleUniverseViewer/ListboxTemplates'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_incbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_incbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_decbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_decbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_thumb__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_thumb__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_incbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_incbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_decbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_decbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_thumb__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_thumb__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName' of type 'TaharezLook/StaticText' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/StaticText' to the window 'ParticleUniverseViewer/SelectedName'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/StaticText' to window 'ParticleUniverseViewer/SelectedName'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_incbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_incbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_decbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_decbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_thumb__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_thumb__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Scrollbar' to the window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_incbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_incbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/ImageButton' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_decbtn__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/ImageButton' to window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_decbtn__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_thumb__'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_thumb__'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ButtonStart' of type 'TaharezLook/Button' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ButtonStart'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'ParticleUniverseViewer/ButtonStart'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ButtonPause' of type 'TaharezLook/Button' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ButtonPause'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'ParticleUniverseViewer/ButtonPause'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ButtonResume' of type 'TaharezLook/Button' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ButtonResume'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'ParticleUniverseViewer/ButtonResume'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ButtonStop' of type 'TaharezLook/Button' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ButtonStop'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'ParticleUniverseViewer/ButtonStop'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/ButtonQuit' of type 'TaharezLook/Button' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/Button' to the window 'ParticleUniverseViewer/ButtonQuit'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'ParticleUniverseViewer/ButtonQuit'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/CheckResetCamera' of type 'TaharezLook/Checkbox' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/ToggleButton' to the window 'ParticleUniverseViewer/CheckResetCamera'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Checkbox' to window 'ParticleUniverseViewer/CheckResetCamera'.
+04/05/2009 21:13:16 (InfL2)	Window 'ParticleUniverseViewer/CheckSkybox' of type 'TaharezLook/Checkbox' has been created.
+04/05/2009 21:13:16 (InfL2)	Assigning the window renderer 'Falagard/ToggleButton' to the window 'ParticleUniverseViewer/CheckSkybox'
+04/05/2009 21:13:16 (InfL2)	Assigning LookNFeel 'TaharezLook/Checkbox' to window 'ParticleUniverseViewer/CheckSkybox'.
+04/05/2009 21:13:16 (InfL1)	---- Successfully completed loading of GUI layout from 'puviewer.layout' ----
+04/05/2009 21:13:16 (InfL1)	Attempting to create Imageset 'BlueHighway-12_auto_glyph_images_ ' with texture only.
+04/05/2009 21:13:23 (InfL1)	---- Begining CEGUI System destruction ----
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_titlebar__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/WindowPropertiesWindow__auto_closebutton__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_hscrollbar__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates__auto_vscrollbar__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ListboxTemplates' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_hscrollbar__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName__auto_vscrollbar__' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/SelectedName' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ButtonStart' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ButtonPause' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ButtonResume' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ButtonStop' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/ButtonQuit' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/CheckResetCamera' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/CheckSkybox' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer/WindowPropertiesWindow' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'ParticleUniverseViewer' has been added to dead pool.
+04/05/2009 21:13:23 (InfL2)	Window 'root' has been added to dead pool.
+04/05/2009 21:13:23 (InfL1)	---- Begining cleanup of GUI Scheme system ----
+04/05/2009 21:13:23 (InfL2)	---- Begining resource cleanup for GUI scheme 'TaharezLook' ----
+04/05/2009 21:13:23 (InfL2)	Imageset 'BlueHighway-12_auto_glyph_images_ ' has been destroyed.
+04/05/2009 21:13:23 (InfL1)	Font 'BlueHighway-12' has been destroyed.
+04/05/2009 21:13:23 (InfL1)	Font 'BlueHighway-10' has been destroyed.
+04/05/2009 21:13:23 (InfL1)	Font 'BlueHighway-8' has been destroyed.
+04/05/2009 21:13:23 (InfL2)	Imageset 'TaharezLook' has been destroyed.
+04/05/2009 21:13:23 (InfL2)	---- Resource cleanup for GUI scheme 'TaharezLook' completed ----
+04/05/2009 21:13:23 (InfL2)	GUI scheme 'TaharezLook' has been unloaded.
+04/05/2009 21:13:23 (InfL1)	Scheme 'TaharezLook' has been unloaded.
+04/05/2009 21:13:23 (InfL1)	CEGUI::SchemeManager singleton destroyed.
+04/05/2009 21:13:23 (InfL1)	CEGUI::WindowManager singleton destroyed
+04/05/2009 21:13:23 (InfL1)	CEGUI::WindowFactoryManager singleton destroyed
+04/05/2009 21:13:23 (InfL1)	CEGUI::WidgetLookManager singleton destroyed.
+04/05/2009 21:13:23 (InfL1)	CEGUI::WindowRendererManager singleton destroyed
+04/05/2009 21:13:23 (InfL1)	---- Begining cleanup of Font system ----
+04/05/2009 21:13:23 (InfL1)	CEGUI::FontManager singleton destroyed.
+04/05/2009 21:13:23 (InfL1)	CEGUI::MouseCursor singleton destroyed.
+04/05/2009 21:13:23 (InfL1)	---- Begining cleanup of Imageset system ----
+04/05/2009 21:13:23 (InfL1)	CEGUI::ImagesetManager singleton destroyed
+04/05/2009 21:13:23 (InfL1)	CEGUI::GlobalEventSet singleton destroyed.
+04/05/2009 21:13:23 (InfL1)	CEGUI::System singleton destroyed.
+04/05/2009 21:13:23 (InfL1)	---- CEGUI System destruction completed ----
+04/05/2009 21:13:23 (InfL1)	CEGUI::Logger singleton destroyed.

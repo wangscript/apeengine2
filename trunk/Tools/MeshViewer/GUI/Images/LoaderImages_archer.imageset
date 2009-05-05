@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Imageset Name="LoaderImages" Imagefile="loading_image01.tga" >
+	<Image Name="btnNormal" XPos="0" YPos="0"  Width="296" Height="400" />
+	<Image Name="btnHover"  XPos="0" YPos="20" Width="64" Height="20" />
+	<Image Name="btnPushed" XPos="0" YPos="40" Width="64" Height="20" />
+	<Image Name="btnDisabl" XPos="0" YPos="60" Width="64" Height="20" />
+</Imageset>

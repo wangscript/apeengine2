@@ -1,0 +1,95 @@
+
+material FreddyHead1Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			texture_unit
+			{
+				texture freddy_head.dds
+				filtering linear linear none
+			}
+		}
+
+	}
+
+}
+
+material FreddyHead2Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			texture_unit
+			{
+				texture freddy_head2.dds
+				filtering linear linear none
+			}
+		}
+
+	}
+
+}
+
+material FreddyHead3Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			texture_unit
+			{
+				texture freddy_head3.dds
+				filtering linear linear none
+			}
+		}
+
+	}
+
+}
+
+material FreddyHead4Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			texture_unit
+			{
+				texture freddy_head4.dds
+				filtering linear linear none
+			}
+		}
+
+	}
+
+}
+
+material FreddyHead5Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			texture_unit
+			{
+				texture freddy_head5.dds
+				filtering linear linear none
+			}
+		}
+
+	}
+
+}

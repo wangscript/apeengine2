@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animation_system>
+  <nodes>
+    <node type="AnimationNode" id="0">
+      <custom animation="Look_Right" />
+    </node>
+    <node type="AnimationNode" id="1">
+      <custom animation="Look_Up" />
+    </node>
+    <node type="AnimationNode" id="2">
+      <custom animation="Look_Down" />
+    </node>
+    <node type="ParameterNode" id="3">
+      <custom parameter="LookDirectionHorizontal" />
+    </node>
+    <node type="AnimationNode" id="4">
+      <custom animation="Look_Left" />
+    </node>
+    <node type="ParameterNode" id="5">
+      <custom parameter="LookDirectionVertical" />
+    </node>
+    <node type="TransitionSelectNode" id="6">
+      <custom size="2" />
+    </node>
+    <node type="ParameterNode" id="7">
+      <custom parameter="Carry Weapon" />
+    </node>
+    <node type="AnimationNode" id="8">
+      <custom animation="Idle" />
+    </node>
+    <node type="AnimationNode" id="9">
+      <custom animation="Idle_Agressive" />
+    </node>
+    <node type="BlendNode" id="10">
+      <custom />
+    </node>
+    <node type="MixNode" id="11">
+      <custom size="3" />
+    </node>
+    <node type="ParameterNode" id="12">
+      <custom parameter="Animation State" />
+    </node>
+    <node type="AnimationNode" id="13">
+      <custom animation="Jump_Post" />
+    </node>
+    <node type="AnimationNode" id="14">
+      <custom animation="Hit_02" />
+    </node>
+    <node type="AnimationNode" id="15">
+      <custom animation="Jump_Loop" />
+    </node>
+    <node type="AnimationNode" id="16">
+      <custom animation="Jump_Pre" />
+    </node>
+    <node type="AnimationNode" id="17">
+      <custom animation="Hit_03" />
+    </node>
+    <node type="AnimationNode" id="18">
+      <custom animation="Fall_Loop" />
+    </node>
+    <node type="ParameterNode" id="19">
+      <custom parameter="Run Amount" />
+    </node>
+    <node type="AnimationNode" id="20">
+      <custom animation="Run" />
+    </node>
+    <node type="ParameterNode" id="21">
+      <custom parameter="Run Speed" />
+    </node>
+    <node type="AnimationNode" id="22">
+      <custom animation="Idle" />
+    </node>
+    <node type="AnimationNode" id="23">
+      <custom animation="Die" />
+    </node>
+    <node type="AnimationNode" id="24">
+      <custom animation="Attack_02_Post" />
+    </node>
+    <node type="AnimationNode" id="25">
+      <custom animation="Attack_03" />
+    </node>
+    <node type="AnimationNode" id="26">
+      <custom animation="Fall_Post" />
+    </node>
+    <node type="ParameterNode" id="27">
+      <custom parameter="HeadTurnEnabled" />
+    </node>
+    <node type="TransitionSelectNode" id="28">
+      <custom size="2" />
+    </node>
+    <node type="ParameterNode" id="29">
+      <custom parameter="Jump Post" />
+    </node>
+    <node type="AnimationNode" id="30">
+      <custom animation="JumpImpact" />
+    </node>
+    <node type="AnimationNode" id="31">
+      <custom animation="Attack_01" />
+    </node>
+    <node type="TransitionSelectNode" id="32">
+      <custom size="2" />
+    </node>
+    <node type="LookAtNode" id="33">
+      <custom />
+    </node>
+    <node type="TransitionSelectNode" id="34">
+      <custom size="14" />
+    </node>
+  </nodes>
+  <connections>
+    <connection node_in="6" port_in="select" node_out="7" />
+    <connection node_in="6" port_in="animation 0" node_out="8" />
+    <connection node_in="6" port_in="animation 1" node_out="9" />
+    <connection node_in="10" port_in="weight" node_out="19" />
+    <connection node_in="10" port_in="in0" node_out="20" />
+    <connection node_in="10" port_in="in1" node_out="22" />
+    <connection node_in="11" port_in="in0" node_out="34" />
+    <connection node_in="11" port_in="in1" node_out="32" />
+    <connection node_in="11" port_in="in2" node_out="28" />
+    <connection node_in="20" port_in="speed" node_out="21" />
+    <connection node_in="28" port_in="select" node_out="29" />
+    <connection node_in="28" port_in="animation 1" node_out="30" />
+    <connection node_in="32" port_in="select" node_out="27" />
+    <connection node_in="32" port_in="animation 1" node_out="33" />
+    <connection node_in="33" port_in="horizontal_amount" node_out="3" />
+    <connection node_in="33" port_in="vertical_amount" node_out="5" />
+    <connection node_in="33" port_in="left" node_out="4" />
+    <connection node_in="33" port_in="right" node_out="0" />
+    <connection node_in="33" port_in="up" node_out="1" />
+    <connection node_in="33" port_in="down" node_out="2" />
+    <connection node_in="34" port_in="select" node_out="12" />
+    <connection node_in="34" port_in="animation 0" node_out="6" />
+    <connection node_in="34" port_in="animation 1" node_out="10" />
+    <connection node_in="34" port_in="animation 2" node_out="23" />
+    <connection node_in="34" port_in="animation 3" node_out="31" />
+    <connection node_in="34" port_in="animation 4" node_out="16" />
+    <connection node_in="34" port_in="animation 5" node_out="15" />
+    <connection node_in="34" port_in="animation 6" node_out="13" />
+    <connection node_in="34" port_in="animation 7" node_out="14" />
+    <connection node_in="34" port_in="animation 8" node_out="17" />
+    <connection node_in="34" port_in="animation 9" node_out="18" />
+    <connection node_in="34" port_in="animation 10" node_out="24" />
+    <connection node_in="34" port_in="animation 11" node_out="25" />
+    <connection node_in="34" port_in="animation 12" node_out="26" />
+  </connections>
+  <output>11</output>
+  <constants>
+    <constant node_id="0" port="speed" value="1" />
+    <constant node_id="1" port="speed" value="1" />
+    <constant node_id="2" port="speed" value="1" />
+    <constant node_id="4" port="speed" value="1" />
+    <constant node_id="6" port="time in" value="0.3" />
+    <constant node_id="6" port="time out" value="0.3" />
+    <constant node_id="8" port="speed" value="1" />
+    <constant node_id="9" port="speed" value="1" />
+    <constant node_id="13" port="speed" value="1" />
+    <constant node_id="14" port="speed" value="1" />
+    <constant node_id="15" port="speed" value="1" />
+    <constant node_id="16" port="speed" value="2.4" />
+    <constant node_id="17" port="speed" value="1" />
+    <constant node_id="18" port="speed" value="1" />
+    <constant node_id="22" port="speed" value="1" />
+    <constant node_id="23" port="speed" value="1" />
+    <constant node_id="24" port="speed" value="1.2" />
+    <constant node_id="25" port="speed" value="1" />
+    <constant node_id="26" port="speed" value="1" />
+    <constant node_id="28" port="time in" value="0.2" />
+    <constant node_id="28" port="time out" value="0.2" />
+    <constant node_id="30" port="speed" value="1" />
+    <constant node_id="31" port="speed" value="1.8" />
+    <constant node_id="32" port="time in" value="0.2" />
+    <constant node_id="32" port="time out" value="0.2" />
+    <constant node_id="34" port="time in" value="0.25" />
+    <constant node_id="34" port="time out" value="0.25" />
+  </constants>
+  <parameters>
+    <parameter name="LookDirectionHorizontal" value="0.5" />
+    <parameter name="LookDirectionVertical" value="0.5" />
+    <parameter name="Carry Weapon" value="0" />
+    <parameter name="Animation State" value="0" />
+    <parameter name="Run Amount" value="1" />
+    <parameter name="Run Speed" value="1" />
+    <parameter name="HeadTurnEnabled" value="1" />
+    <parameter name="Jump Post" value="0.55" />
+  </parameters>
+</animation_system>
