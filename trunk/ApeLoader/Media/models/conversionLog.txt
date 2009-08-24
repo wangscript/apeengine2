@@ -1,5 +1,0 @@
-PhysX Error! NXE_DB_WARNING (f:\scmvista\experimental\PhysX_2.8.0_GPU\novodex\SDKs\Core\Device\RegistryHardwareSelection.cpp:71)
-CUDA not available
-PhysX Error! NXE_DB_WARNING (f:\scmvista\experimental\PhysX_2.8.0_GPU\novodex\SDKs\Core\Device\RegistryHardwareSelection.cpp:71)
-CUDA not available
-Converted 'staticLevelMesh54.mesh' to 'staticLevelMesh54.mesh.nxs' as PhysX Triangle mesh
