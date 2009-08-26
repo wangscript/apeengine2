@@ -1,0 +1,163 @@
+21:42:54: Creating resource group General
+21:42:54: Creating resource group Internal
+21:42:54: Creating resource group Autodetect
+21:42:54: Registering ResourceManager for type Mesh
+21:42:54: Registering ResourceManager for type Material
+21:42:54: Registering ResourceManager for type Skeleton
+21:42:54: Loading mesh freddy.mesh...
+21:42:54: Skeleton: Loading Freddy.skeleton
+21:42:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Freddy.skeleton in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+21:42:54: Unable to load skeleton Freddy.skeleton for Mesh freddy.mesh. This Mesh will not be animated. You can ignore this message if you are using an offline tool.
+21:42:55: Processing mesh...
+21:42:55: MeshSerializer writing mesh data to freddy.mesh...
+21:42:55: File header written.
+21:42:55: Writing mesh data...
+21:42:55: Writing submesh...
+21:42:55: Exporting submesh texture aliases...
+21:42:55: Submesh texture aliases exported.
+21:42:55: Exporting dedicated geometry bone assignments...
+21:42:55: Dedicated geometry bone assignments exported.
+21:42:55: Submesh exported.
+21:42:55: Exporting skeleton link...
+21:42:55: Skeleton link exported.
+21:42:55: Exporting bounds information....
+21:42:55: Bounds information exported.
+21:42:55: Exporting submesh name table...
+21:42:55: Submesh name table exported.
+21:42:55: Exporting edge lists...
+21:42:55: Edge lists exported
+21:42:55: Exporting animation Attack_01
+21:42:55: Animation exported.
+21:42:55: Exporting animation Attack_02_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation Attack_02_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation Attack_03
+21:42:55: Animation exported.
+21:42:55: Exporting animation Celebration
+21:42:55: Animation exported.
+21:42:55: Exporting animation Crouch_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation Crouch_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation Crouch_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation Die
+21:42:55: Animation exported.
+21:42:55: Exporting animation Die_Forward
+21:42:55: Animation exported.
+21:42:55: Exporting animation Fall_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation Fall_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation Fall_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation Head_Down
+21:42:55: Animation exported.
+21:42:55: Exporting animation Head_Left
+21:42:55: Animation exported.
+21:42:55: Exporting animation Head_Right
+21:42:55: Animation exported.
+21:42:55: Exporting animation Head_Up
+21:42:55: Animation exported.
+21:42:55: Exporting animation Hit_01
+21:42:55: Animation exported.
+21:42:55: Exporting animation Hit_02
+21:42:55: Animation exported.
+21:42:55: Exporting animation Hit_03
+21:42:55: Animation exported.
+21:42:55: Exporting animation Idle
+21:42:55: Animation exported.
+21:42:55: Exporting animation Idle_Agressive
+21:42:55: Animation exported.
+21:42:55: Exporting animation Jump_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation Jump_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation Jump_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation Push_Jedi_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation Push_Jedi_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation Push_Jedi_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation Run
+21:42:55: Animation exported.
+21:42:55: Mesh data exported.
+21:42:55: MeshSerializer export successful.
+21:42:55: Mesh saved as freddy.mesh.
+21:42:55: Loading skeleton Freddy.skeleton...
+21:42:55: Processing skeleton...
+21:42:55: Exporting bones..
+21:42:55: Bones exported.
+21:42:55: Exporting animations, count=34
+21:42:55: Exporting animation: Attack_01
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Attack_02_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Attack_02_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Attack_03
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Celebration
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Crouch_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Crouch_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Crouch_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Die
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Die_Forward
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Fall_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Fall_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Fall_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Head_Down
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Head_Left
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Head_Right
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Head_Up
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Hit_01
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Hit_02
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Hit_03
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Idle
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Idle_Agressive
+21:42:55: Animation exported.
+21:42:55: Exporting animation: JumpImpact
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Jump_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Jump_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Jump_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Look_Down
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Look_Left
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Look_Right
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Look_Up
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Push_Jedi_Loop
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Push_Jedi_Post
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Push_Jedi_Pre
+21:42:55: Animation exported.
+21:42:55: Exporting animation: Run
+21:42:55: Animation exported.
+21:42:55: Skeleton saved as Freddy.skeleton.

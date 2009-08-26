@@ -1,0 +1,84 @@
+/*
+-----------------------------------------------------------------------------
+This source file is part of the Particle Universe product.
+
+Copyright (c) 2006-2008 Henry van Merode
+
+Usage of this program is free for non-commercial use and licensed under the
+the terms of the GNU Lesser General Public License.
+
+You should have received a copy of the GNU Lesser General Public License along with
+this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+Place - Suite 330, Boston, MA 02111-1307, USA, or go to
+http://www.gnu.org/copyleft/lesser.txt.
+-----------------------------------------------------------------------------
+*/
+
+#ifndef __PU_DO_ENABLE_COMPONENT_EVENT_HANDLER_H__
+#define __PU_DO_ENABLE_COMPONENT_EVENT_HANDLER_H__
+
+#include "ParticleUniversePrerequisites.h"
+#include "ParticleUniverseEventHandler.h"
+#include "ParticleUniverseSystem.h"
+
+namespace ParticleUniverse
+{
+	/** This class makes it possible to enable or disable a Component. This component is an 
+		named emitter, affector or technique.
+    */
+	class _ParticleUniverseExport DoEnableComponentEventHandler : public ParticleEventHandler
+	{
+		protected:
+			// Identifies the name of component
+			Ogre::String mComponentName;
+
+			// Identifies the type of component
+			ParticleSystem::ComponentType mComponentType;
+
+			/** Determines whether the Component must be enabled or disabled.
+	        */
+			bool mComponentEnabled;
+
+		public:
+			DoEnableComponentEventHandler(void);
+	        virtual ~DoEnableComponentEventHandler(void) {};
+
+			/** Get the name of the component that must be enabled or disabled.
+	        */
+			const Ogre::String& getComponentName(void) const {return mComponentName;};
+
+			/** Set the name of the component that must be enabled or disables.
+	        */
+			void setComponentName(const Ogre::String& componentName){mComponentName = componentName;};
+
+			/** Get the value that identifies whether the component must be enabled or disabled.
+	        */
+			bool isComponentEnabled(void) const {return mComponentEnabled;};
+
+			/** Set the value that identifies whether the component must be enabled or disabled.
+	        */
+			void setComponentEnabled(bool enabled){mComponentEnabled = enabled;};
+
+			/** Get the value that identifies whether the component must be enabled or disabled.
+	        */
+			ParticleSystem::ComponentType getComponentType(void) const {return mComponentType;};
+
+			/** Set the value that identifies whether the component must be enabled or disabled.
+	        */
+			void setComponentType(ParticleSystem::ComponentType componentType){mComponentType = componentType;};
+
+			/** If the _handle() function of this class is invoked (by an Observer), it searches the 
+				ParticleEmitter, ParticleAffector or ParticleTechnique defined by the its name. 
+				The ParticleEmitter/Affector is either part of the ParticleTechnique in which the 
+				DoEnableComponentEventHandler is defined, or if the ParticleEmitter/Affector is not 
+				found, other ParticleTechniques are searched.
+	        */
+			virtual void _handle (ParticleTechnique* particleTechnique, Particle* particle, Ogre::Real timeElapsed);
+
+			/** Copy attributes to another event handler.
+	        */
+			virtual void copyAttributesTo (ParticleEventHandler* eventHandler);
+	};
+
+}
+#endif

@@ -1,0 +1,19 @@
+material Core/CrosshairMat
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			ambient 0 0.14902 0.913726			
+
+			texture_unit
+			{
+				texture crosshair.png
+			}
+		}
+	}
+}
+

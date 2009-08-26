@@ -1,0 +1,103 @@
+material ActorsMaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.666667 0.996078 0.588235 
+			diffuse 0.666667 0.996078 0.588235 
+			specular 0 0 0 10
+			emissive 0 0 0 
+		}
+	}
+}
+
+
+material Column_Diffuse
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 
+			diffuse 0.588 0.588 0.588 
+			specular 0 0 0 10
+			emissive 0 0 0 
+
+			texture_unit 
+			{
+				texture plasterskcastle.dds
+			}
+		}
+	}
+}
+
+
+material Floor_Diff
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 
+			diffuse 0.588 0.588 0.588 
+			specular 0 0 0 10
+			emissive 0 0 0 
+
+			texture_unit 
+			{
+				texture sidewalksubtile.dds
+			}
+		}
+	}
+}
+
+
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7 
+			diffuse 0.7 0.7 0.7 
+		}
+	}
+}
+
+
+material Standard_14
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 
+			diffuse 0.588 0.588 0.588 
+			specular 0 0 0 10
+			emissive 0 0 0 
+		}
+	}
+}
+
+
+material StoneWallDiff
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 
+			diffuse 0.588 0.588 0.588 
+			specular 0 0 0 10
+			emissive 0 0 0 
+
+			texture_unit 
+			{
+				texture skingradstone02.dds
+			}
+		}
+	}
+}
+
+

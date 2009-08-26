@@ -1,0 +1,199 @@
+21:30:35: Creating resource group General
+21:30:35: Creating resource group Internal
+21:30:35: Creating resource group Autodetect
+21:30:35: SceneManagerFactory for type 'DefaultSceneManager' registered.
+21:30:35: Registering ResourceManager for type Material
+21:30:35: Registering ResourceManager for type Mesh
+21:30:35: Registering ResourceManager for type Skeleton
+21:30:35: MovableObjectFactory for type 'ParticleSystem' registered.
+21:30:35: OverlayElementFactory for type Panel registered.
+21:30:35: OverlayElementFactory for type BorderPanel registered.
+21:30:35: OverlayElementFactory for type TextArea registered.
+21:30:35: Registering ResourceManager for type Font
+21:30:35: ArchiveFactory for archive type FileSystem registered.
+21:30:35: ArchiveFactory for archive type Zip registered.
+21:30:35: FreeImage version: 3.10.0
+21:30:35: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+21:30:35: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+21:30:35: DDS codec registering
+21:30:35: Registering ResourceManager for type HighLevelGpuProgram
+21:30:35: Registering ResourceManager for type Compositor
+21:30:35: MovableObjectFactory for type 'Entity' registered.
+21:30:35: MovableObjectFactory for type 'Light' registered.
+21:30:35: MovableObjectFactory for type 'BillboardSet' registered.
+21:30:35: MovableObjectFactory for type 'ManualObject' registered.
+21:30:35: MovableObjectFactory for type 'BillboardChain' registered.
+21:30:35: MovableObjectFactory for type 'RibbonTrail' registered.
+21:30:35: Loading library .\RenderSystem_Direct3D9
+21:30:35: Installing plugin: D3D9 RenderSystem
+21:30:35: D3D9 : Direct3D9 Rendering Subsystem created.
+21:30:35: D3D9: Driver Detection Starts
+21:30:35: D3D9: Driver Detection Ends
+21:30:35: Plugin successfully installed
+21:30:35: Loading library .\Plugin_OctreeSceneManager
+21:30:35: Installing plugin: Octree & Terrain Scene Manager
+21:30:35: Plugin successfully installed
+21:30:35: Loading library .\Plugin_CgProgramManager
+21:30:35: Installing plugin: Cg Program Manager
+21:30:35: Plugin successfully installed
+21:30:35: *-*-* OGRE Initialising
+21:30:35: *-*-* Version 1.4.8 (Eihort)
+21:30:35: Creating resource group TecnoFreak
+21:30:35: Added resource location 'TecnoFreakData.zip' of type 'Zip' to resource group 'TecnoFreak'
+21:30:35: Added resource location 'Temp' of type 'FileSystem' to resource group 'TecnoFreak'
+21:30:35: D3D9 : RenderSystem Option: Full Screen = No
+21:30:35: D3D9 : RenderSystem Option: Video Mode = 1024 x 768 @ 32-bit colour
+21:30:35: CPU Identifier & Features
+21:30:35: -------------------------
+21:30:35:  *   CPU ID: AuthenticAMD: AMD Athlon(tm) 64 Processor 3000+
+21:30:35:  *      SSE: yes
+21:30:35:  *     SSE2: yes
+21:30:35:  *     SSE3: yes
+21:30:35:  *      MMX: yes
+21:30:35:  *   MMXEXT: yes
+21:30:35:  *    3DNOW: yes
+21:30:35:  * 3DNOWEXT: yes
+21:30:35:  *     CMOV: yes
+21:30:35:  *      TSC: yes
+21:30:35:  *      FPU: yes
+21:30:35:  *      PRO: yes
+21:30:35:  *       HT: no
+21:30:35: -------------------------
+21:30:35: D3D9 : Subsystem Initialising
+21:30:35: ***************************************
+21:30:35: *** D3D9 : Subsystem Initialised OK ***
+21:30:35: ***************************************
+21:30:35: D3D9RenderSystem::createRenderWindow "Ogre Window 18942634", 0x0 windowed  miscParams: FSAA=0 externalWindowHandle=18942634 
+21:30:35: D3D9 : Created D3D9 Rendering Window 'Ogre Window 18942634' : 489x438, 32bpp
+21:30:35: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+21:30:35: Registering ResourceManager for type Texture
+21:30:35: Registering ResourceManager for type GpuProgram
+21:30:35: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+21:30:35: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+21:30:35: D3D9: Vertex texture format supported - PF_FLOAT32_R
+21:30:35: RenderSystem capabilities
+21:30:35: -------------------------
+21:30:35:  * Hardware generation of mipmaps: yes
+21:30:35:  * Texture blending: yes
+21:30:35:  * Anisotropic texture filtering: yes
+21:30:35:  * Dot product texture operation: yes
+21:30:35:  * Cube mapping: yes
+21:30:35:  * Hardware stencil buffer: yes
+21:30:35:    - Stencil depth: 8
+21:30:35:    - Two sided stencil support: yes
+21:30:35:    - Wrap stencil values: yes
+21:30:35:  * Hardware vertex / index buffers: yes
+21:30:35:  * Vertex programs: yes
+21:30:35:    - Max vertex program version: vs_3_0
+21:30:35:  * Fragment programs: yes
+21:30:35:    - Max fragment program version: ps_3_0
+21:30:35:  * Texture Compression: yes
+21:30:35:    - DXT: yes
+21:30:35:    - VTC: no
+21:30:35:  * Scissor Rectangle: yes
+21:30:35:  * Hardware Occlusion Query: yes
+21:30:35:  * User clip planes: yes
+21:30:35:  * VET_UBYTE4 vertex element type: yes
+21:30:35:  * Infinite far plane projection: yes
+21:30:35:  * Hardware render-to-texture: yes
+21:30:35:  * Floating point textures: yes
+21:30:35:  * Non-power-of-two textures: yes
+21:30:35:  * Volume textures: yes
+21:30:35:  * Multiple Render Targets: 4
+21:30:35:  * Point Sprites: yes
+21:30:35:  * Extended point parameters: yes
+21:30:35:  * Max Point Size: 8192
+21:30:35:  * Vertex texture fetch: yes
+21:30:35:    - Max vertex textures: 4
+21:30:35:    - Vertex textures shared: no
+21:30:35: ResourceBackgroundQueue - threading disabled
+21:30:35: Particle Renderer Type 'billboard' registered
+21:30:35: SceneManagerFactory for type 'OctreeSceneManager' registered.
+21:30:35: SceneManagerFactory for type 'TerrainSceneManager' registered.
+21:30:35: Parsing scripts for resource group Autodetect
+21:30:35: Finished parsing scripts for resource group Autodetect
+21:30:35: Parsing scripts for resource group General
+21:30:35: Finished parsing scripts for resource group General
+21:30:35: Parsing scripts for resource group Internal
+21:30:35: Finished parsing scripts for resource group Internal
+21:30:35: Parsing scripts for resource group TecnoFreak
+21:30:35: Parsing script bone.material
+21:30:35: Parsing script viewport.material
+21:30:35: Finished parsing scripts for resource group TecnoFreak
+21:30:35: OGRE EXCEPTION(5:ItemIdentityException): SceneManager instance with name 'Default' not found. in SceneManagerEnumerator::getSceneManager at ..\src\OgreSceneManagerEnumerator.cpp (line 267)
+21:30:35: Creating viewport on target 'Ogre Window 18942634', rendering from camera 'Default', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+21:30:35: !!! Direct3D Device Lost!
+21:30:36: D3D9TextureManager released:
+21:30:36: 0 unmanaged textures
+21:30:36: D3D9HardwareBufferManager released:
+21:30:36: 0 unmanaged vertex buffers
+21:30:36: 0 unmanaged index buffers
+21:30:36: Reset device ok w:169 h:233
+21:30:36: D3D9TextureManager recreated:
+21:30:36: 0 unmanaged textures
+21:30:36: D3D9HardwareBufferManager recreated:
+21:30:36: 0 unmanaged vertex buffers
+21:30:36: 0 unmanaged index buffers
+21:30:36: !!! Direct3D Device successfully restored.
+21:30:42: !!! Direct3D Device Lost!
+21:30:42: D3D9TextureManager released:
+21:30:42: 0 unmanaged textures
+21:30:42: D3D9HardwareBufferManager released:
+21:30:42: 0 unmanaged vertex buffers
+21:30:42: 0 unmanaged index buffers
+21:30:42: Reset device ok w:316 h:429
+21:30:42: D3D9TextureManager recreated:
+21:30:42: 0 unmanaged textures
+21:30:42: D3D9HardwareBufferManager recreated:
+21:30:42: 0 unmanaged vertex buffers
+21:30:42: 0 unmanaged index buffers
+21:30:42: !!! Direct3D Device successfully restored.
+21:30:43: Unloading resource group CharacterResourceGroup
+21:30:43: OGRE EXCEPTION(5:ItemIdentityException): Cannot find a group named CharacterResourceGroup in ResourceGroupManager::unloadResourceGroup at ..\src\OgreResourceGroupManager.cpp (line 256)
+21:30:43: Creating resource group CharacterResourceGroup
+21:30:43: Added resource location 'C:\test\media\friki' of type 'FileSystem' to resource group 'CharacterResourceGroup'
+21:30:43: Initialising resource group CharacterResourceGroup
+21:30:43: Parsing scripts for resource group CharacterResourceGroup
+21:30:43: Parsing script NormalMapping.program
+21:30:43: Parsing script freddy.material
+21:30:43: Parsing script FreddyHeadMaterial.material
+21:30:43: Parsing script Friki.material
+21:30:43: Parsing script lostboy.material
+21:30:43: Parsing script naruto.material
+21:30:43: Finished parsing scripts for resource group CharacterResourceGroup
+21:30:43: Unloading resource group CharacterMaterialRsourceGroup
+21:30:43: OGRE EXCEPTION(5:ItemIdentityException): Cannot find a group named CharacterMaterialRsourceGroup in ResourceGroupManager::unloadResourceGroup at ..\src\OgreResourceGroupManager.cpp (line 256)
+21:30:43: Creating resource group CharacterMaterialRsourceGroup
+21:30:43: Added resource location 'C:\test\media\friki\../materials' of type 'FileSystem' to resource group 'CharacterMaterialRsourceGroup'
+21:30:43: Added resource location 'C:\test\media\friki\../materials/programs' of type 'FileSystem' to resource group 'CharacterMaterialRsourceGroup'
+21:30:43: Added resource location 'C:\test\media\friki\../materials/scripts' of type 'FileSystem' to resource group 'CharacterMaterialRsourceGroup'
+21:30:43: Added resource location 'C:\test\media\friki\../materials/textures' of type 'FileSystem' to resource group 'CharacterMaterialRsourceGroup'
+21:30:43: Initialising resource group CharacterMaterialRsourceGroup
+21:30:43: Parsing scripts for resource group CharacterMaterialRsourceGroup
+21:30:43: Finished parsing scripts for resource group CharacterMaterialRsourceGroup
+21:30:43: Mesh: Loading freddy.mesh.
+21:30:43: Skeleton: Loading Freddy.skeleton
+21:30:43: D3D9 : Loading 2D Texture, image name : 'Freddy_diffuse.dds' with 2147483647 mip map levels
+21:30:43: Texture: Freddy_normals.png: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+21:30:43: Mesh: Loading bone.mesh.
+21:33:49: *-*-* OGRE Shutdown
+21:33:49: Unregistering ResourceManager for type Compositor
+21:33:49: Unregistering ResourceManager for type Font
+21:33:49: Unregistering ResourceManager for type Skeleton
+21:33:49: Unregistering ResourceManager for type Mesh
+21:33:49: Unregistering ResourceManager for type HighLevelGpuProgram
+21:33:49: Uninstalling plugin: Cg Program Manager
+21:33:49: Plugin successfully uninstalled
+21:33:49: Unloading library .\Plugin_CgProgramManager
+21:33:49: Uninstalling plugin: Octree & Terrain Scene Manager
+21:33:49: Plugin successfully uninstalled
+21:33:49: Unloading library .\Plugin_OctreeSceneManager
+21:33:49: Uninstalling plugin: D3D9 RenderSystem
+21:33:49: Render Target 'Ogre Window 18942634' Average FPS: 39.8946 Best FPS: 40.796 Worst FPS: 7.38786
+21:33:49: D3D9 : Shutting down cleanly.
+21:33:49: Unregistering ResourceManager for type Texture
+21:33:49: Unregistering ResourceManager for type GpuProgram
+21:33:49: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+21:33:49: Plugin successfully uninstalled
+21:33:49: Unloading library .\RenderSystem_Direct3D9
+21:33:49: Unregistering ResourceManager for type Material

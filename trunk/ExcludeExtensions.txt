@@ -1,0 +1,6 @@
+*.ncb
+*.obj
+*.exp
+*.ilk
+*.pdb
+*.idb
