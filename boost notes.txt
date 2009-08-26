@@ -1,0 +1,97 @@
+	void CCharacterAnimation::callLuaFunction(const std::string func ) {
+		if(mCurrentState) {
+			luabind::object CallBack = mCurrentState[func];
+			if(CallBack)
+				luabind::call_function<void>(CallBack,this->getOwnerObject()); // this
+		}
+	}
+
+	void CCharacterAnimation::setCurrentTemplate(luabind::object newState) {
+		mCurrentState = newState;
+	}
+
+
+
+1. Saltar con aceleracion
+
+2. Animaciones adicionales:
+a.Anim 3 Attack_01 (default, el proximo es Anim 11 Attack_03
+b.Anim 7 Hit_02 (wall hit)
+c.Anim 10 (Attack_02_Post tirar objeto)
+
+Eventos:
+1.Pickup object
+2.Throw object
+3.Hit Actor (pasar como parametro: actor colisionado, velocidad de character)
+
+
+Funciones:
+4.isTouckingFloor()
+4.isTouckingCeiling()
+4.isTouckingSides()
+
+#include <cstddef> // NULL
+#include <iomanip>
+#include <iostream>
+#include <fstream>
+#include <string>
+
+#include <boost/archive/tmpdir.hpp>
+
+#include <boost/archive/text_iarchive.hpp>
+#include <boost/archive/text_oarchive.hpp>
+
+#include <boost/serialization/base_object.hpp>
+#include <boost/serialization/utility.hpp>
+#include <boost/serialization/list.hpp>
+#include <boost/serialization/assume_abstract.hpp>
+
+#include "boost/filesystem/path.hpp"
+
+#include "boost/filesystem/operations.hpp"
+#include "boost/progress.hpp"
+
+#include <boost/shared_ptr.hpp>
+
+#include <boost/detail/lightweight_test.hpp>//Smart Pointers test
+
+
+#define BOOST_FILESYSTEM_NO_DEPRECATED
+
+namespace fs = boost::filesystem;
+
+
+void save_schedule(const GameObject &s, const char * filename){
+	// make an archive
+	std::ofstream ofs(filename);
+	boost::archive::text_oarchive oa(ofs);
+	oa << s;
+}
+
+void restore_schedule(GameObject &s, const char * filename)
+{
+	// open the archive
+	std::ifstream ifs(filename);
+	boost::archive::text_iarchive ia(ifs);
+
+	// restore the schedule from the archive
+	ia >> s;
+}
+
+	/*
+	GameObject* g = new GameObject("asdas");
+	boost::shared_ptr<GameObject> go;
+	go = boost::shared_ptr<GameObject>(new GameObject("asdas"));
+	boost::shared_ptr<CLight> light(new CLight());
+	go->setComponent(light.get());
+	const std::string nam = go->getID();
+	CLight l = (*light.get());
+	*/
+
+	//Boost Serialization to text files
+	//fs::path m_InitialDir( fs::initial_path<fs::path>() );
+	//std::string filename(m_InitialDir.directory_string()); //boost::archive::tmpdir()
+	//filename += "/demofile.txt";
+	//save_schedule(*go, filename.c_str());
+	//GameObject new_schedule;
+	//restore_schedule(new_schedule, filename.c_str());

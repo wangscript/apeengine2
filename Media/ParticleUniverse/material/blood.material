@@ -1,0 +1,35 @@
+material AidinBlood1
+{
+   technique
+   {
+      pass
+      {
+         lighting off
+         scene_blend alpha_blend
+         depth_write off
+
+         texture_unit
+         {
+            texture a_blood2.png
+         }
+      }
+   }
+}
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+material AidinBlood2
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            depth_write off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture BloodInterpolate.png
+            }
+        }
+    }
+}

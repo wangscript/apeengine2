@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MyGUI type="Resource">
+
+  <Resource type="ResourceImageSet" name="healthBar" id="{E8A3EEE2-1E84-4e55-87F7-E64ABB422991}">
+    <Group name="States" texture="HealthBar.png" size="40 74">
+      <Index name="Normal">
+        <Frame point="0 0"/>
+      </Index>
+      <Index name="Refuse">
+        <Frame point="0 74"/>
+      </Index>
+      <Index name="Accept">
+        <Frame point="0 148"/>
+      </Index>
+    </Group>
+    <Group name="ToolTip" texture="HealthBar.png" size="32 32">
+      <Index name="Normal">
+        <Frame point="5 251"/>
+      </Index>
+    </Group>
+  </Resource>
+
+ </MyGUI>

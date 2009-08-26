@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Window" skin="WindowCS" position="200 58 424 398" layer="Overlapped" name="_Main">
+        <Property key="Widget_Caption" value="Character Sheet"/>
+        <Property key="Window_MinMax" value="170 60 1000 1000"/>
+        <Property key="Widget_Visible" value="true"/>
+        <Property key="Widget_Alpha" value="0.1"/>
+        <Widget type="ItemBox" skin="ItemBoxH" position="0 0 416 360" align="Stretch" name="box_Items">
+            <Property key="Widget_NeedToolTip" value="true"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="ItemBoxH" position="28 15 64 64" layer="Back" name="WeaponSlot">
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="ItemBoxH" position="316 15 64 64" layer="Back" name="ShieldSlot">
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="StaticImage" skin="StaticImage" position="144 88 128 264" layer="Back" name="characterImage">
+            <Property key="Widget_Visible" value="true"/>
+            <Property key="Image_Texture" value="FullChar2.bmp"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="ItemBoxH" position="172 15 64 64" layer="Back" name="HelmetSlot">
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="ItemBoxH" position="28 151 64 64" layer="Back" name="ArmorSlot">
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="ItemBoxH" position="28 279 64 64" layer="Back" name="BootsSlot">
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="ItemBoxH" position="316 151 64 65" layer="Back" name="RingSlot">
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+    </Widget>
+</MyGUI>

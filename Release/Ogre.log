@@ -1,0 +1,625 @@
+20:13:07: Creating resource group General
+20:13:07: Creating resource group Internal
+20:13:07: Creating resource group Autodetect
+20:13:07: SceneManagerFactory for type 'DefaultSceneManager' registered.
+20:13:07: Registering ResourceManager for type Material
+20:13:07: Registering ResourceManager for type Mesh
+20:13:07: Registering ResourceManager for type Skeleton
+20:13:07: MovableObjectFactory for type 'ParticleSystem' registered.
+20:13:07: OverlayElementFactory for type Panel registered.
+20:13:07: OverlayElementFactory for type BorderPanel registered.
+20:13:07: OverlayElementFactory for type TextArea registered.
+20:13:07: Registering ResourceManager for type Font
+20:13:07: ArchiveFactory for archive type FileSystem registered.
+20:13:07: ArchiveFactory for archive type Zip registered.
+20:13:07: FreeImage version: 3.10.0
+20:13:07: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+20:13:07: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+20:13:07: DDS codec registering
+20:13:07: Registering ResourceManager for type HighLevelGpuProgram
+20:13:07: Registering ResourceManager for type Compositor
+20:13:07: MovableObjectFactory for type 'Entity' registered.
+20:13:07: MovableObjectFactory for type 'Light' registered.
+20:13:07: MovableObjectFactory for type 'BillboardSet' registered.
+20:13:07: MovableObjectFactory for type 'ManualObject' registered.
+20:13:07: MovableObjectFactory for type 'BillboardChain' registered.
+20:13:07: MovableObjectFactory for type 'RibbonTrail' registered.
+20:13:07: Loading library .\RenderSystem_Direct3D9
+20:13:07: Installing plugin: D3D9 RenderSystem
+20:13:07: D3D9 : Direct3D9 Rendering Subsystem created.
+20:13:07: D3D9: Driver Detection Starts
+20:13:07: D3D9: Driver Detection Ends
+20:13:07: Plugin successfully installed
+20:13:07: Loading library .\RenderSystem_GL
+20:13:08: Installing plugin: GL RenderSystem
+20:13:08: OpenGL Rendering Subsystem created.
+20:13:09: Plugin successfully installed
+20:13:09: Loading library .\ParticleUniverse
+20:13:09: Installing plugin: ParticleUniverse
+20:13:09: MovableObjectFactory for type 'PUParticleSystem' registered.
+20:13:09: MovableObjectFactory for type 'BoxSet' registered.
+20:13:09: MovableObjectFactory for type 'SphereSet' registered.
+20:13:09: ParticleUniverse: Particle Renderer Type 'Billboard' registered
+20:13:09: ParticleUniverse: Particle Renderer Type 'Box' registered
+20:13:09: ParticleUniverse: Particle Renderer Type 'Sphere' registered
+20:13:09: ParticleUniverse: Particle Renderer Type 'Entity' registered
+20:13:09: ParticleUniverse: Particle Renderer Type 'RibbonTrail' registered
+20:13:09: ParticleUniverse: Particle Renderer Type 'Light' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'Point' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'Line' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'Box' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'Circle' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'SphereSurface' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'Vertex' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'MeshSurface' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'Position' registered
+20:13:09: ParticleUniverse: Particle Emitter Type 'Slave' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Dummy01' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'LinearForce' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Gravity' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'ParticleFollower' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Vortex' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Randomiser' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Line' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Scale' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'GeometryRotator' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'TextureRotator' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Jet' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Align' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'FlockCentering' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'CollisionAvoidance' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'VelocityMatching' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Colour' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'SineForce' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'Dummy02' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'SphereCollider' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'PlaneCollider' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'BoxCollider' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'InterParticleCollider' registered
+20:13:09: ParticleUniverse: Particle Affector Type 'PathFollower' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnExpire' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnEmission' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnCount' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnEventFlag' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnCollision' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnVelocity' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnTime' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnPosition' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnClear' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnQuota' registered
+20:13:09: ParticleUniverse: Particle Observer Type 'OnRandom' registered
+20:13:09: ParticleUniverse: Particle EventHandler Type 'DoExpire' registered
+20:13:09: ParticleUniverse: Particle EventHandler Type 'DoFreeze' registered
+20:13:09: ParticleUniverse: Particle EventHandler Type 'DoPlacementParticle' registered
+20:13:09: ParticleUniverse: Particle EventHandler Type 'DoStopSystem' registered
+20:13:09: ParticleUniverse: Particle EventHandler Type 'DoEnableComponent' registered
+20:13:09: ParticleUniverse: Particle EventHandler Type 'DoAffector' registered
+20:13:09: ParticleUniverse: Particle EventHandler Type 'DoScale' registered
+20:13:09: ParticleUniverse: Particle Extern Type 'Gravity' registered
+20:13:09: ParticleUniverse: Particle Extern Type 'SphereCollider' registered
+20:13:09: ParticleUniverse: Particle Extern Type 'BoxCollider' registered
+20:13:09: ParticleUniverse: Particle Extern Type 'Vortex' registered
+20:13:09: ParticleUniverse: Particle Behaviour Type 'Slave' registered
+20:13:09: Plugin successfully installed
+20:13:09: Loading library .\Plugin_CgProgramManager
+20:13:09: Installing plugin: Cg Program Manager
+20:13:09: Plugin successfully installed
+20:13:09: Loading library .\Plugin_TheoraVideoSystem
+20:13:09: Registering Texture Controller: Type = ogg_video Name = TheoraVideoPlugin
+20:13:09: *-*-* OGRE Initialising
+20:13:09: *-*-* Version 1.6.1 (Shoggoth)
+20:13:09: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+20:13:09: D3D9 : RenderSystem Option: Anti aliasing = Level 4
+20:13:09: D3D9 : RenderSystem Option: Floating-point mode = Consistent
+20:13:09: D3D9 : RenderSystem Option: Full Screen = Yes
+20:13:09: D3D9 : RenderSystem Option: Rendering Device = NVIDIA GeForce 6600 GT
+20:13:09: D3D9 : RenderSystem Option: VSync = No
+20:13:09: D3D9 : RenderSystem Option: Video Mode = 1024 x 768 @ 32-bit colour
+20:13:09: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+20:13:11: CPU Identifier & Features
+20:13:11: -------------------------
+20:13:11:  *   CPU ID: AuthenticAMD: AMD Athlon(tm) 64 Processor 3000+
+20:13:11:  *      SSE: yes
+20:13:11:  *     SSE2: yes
+20:13:11:  *     SSE3: yes
+20:13:11:  *      MMX: yes
+20:13:11:  *   MMXEXT: yes
+20:13:11:  *    3DNOW: yes
+20:13:11:  * 3DNOWEXT: yes
+20:13:11:  *     CMOV: yes
+20:13:11:  *      TSC: yes
+20:13:11:  *      FPU: yes
+20:13:11:  *      PRO: yes
+20:13:11:  *       HT: no
+20:13:11: -------------------------
+20:13:11: D3D9 : Subsystem Initialising
+20:13:11: D3D9RenderSystem::_createRenderWindow "Nebula Engine", 1024x768 fullscreen  miscParams: FSAA=4 FSAAQuality=0 colourDepth=32 gamma=false useNVPerfHUD=false vsync=false 
+20:13:11: D3D9 : Created D3D9 Rendering Window 'Nebula Engine' : 1024x768, 32bpp
+20:13:13: Registering ResourceManager for type Texture
+20:13:13: Registering ResourceManager for type GpuProgram
+20:13:13: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+20:13:13: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+20:13:13: D3D9: Vertex texture format supported - PF_FLOAT32_R
+20:13:13: RenderSystem capabilities
+20:13:13: -------------------------
+20:13:13: RenderSystem Name: Direct3D9 Rendering Subsystem
+20:13:13: GPU Vendor: nvidia
+20:13:13: Device Name: NVIDIA GeForce 6600 GT
+20:13:13: Driver Version: 6.14.11.6369
+20:13:13:  * Fixed function pipeline: yes
+20:13:13:  * Hardware generation of mipmaps: yes
+20:13:13:  * Texture blending: yes
+20:13:13:  * Anisotropic texture filtering: yes
+20:13:13:  * Dot product texture operation: yes
+20:13:13:  * Cube mapping: yes
+20:13:13:  * Hardware stencil buffer: yes
+20:13:13:    - Stencil depth: 8
+20:13:13:    - Two sided stencil support: yes
+20:13:13:    - Wrap stencil values: yes
+20:13:13:  * Hardware vertex / index buffers: yes
+20:13:13:  * Vertex programs: yes
+20:13:13:  * Fragment programs: yes
+20:13:13:  * Geometry programs: no
+20:13:13:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+20:13:13:  * Texture Compression: yes
+20:13:13:    - DXT: yes
+20:13:13:    - VTC: no
+20:13:13:  * Scissor Rectangle: yes
+20:13:13:  * Hardware Occlusion Query: yes
+20:13:13:  * User clip planes: yes
+20:13:13:  * VET_UBYTE4 vertex element type: yes
+20:13:13:  * Infinite far plane projection: yes
+20:13:13:  * Hardware render-to-texture: yes
+20:13:13:  * Floating point textures: yes
+20:13:13:  * Non-power-of-two textures: yes
+20:13:13:  * Volume textures: yes
+20:13:13:  * Multiple Render Targets: 4
+20:13:13:    - With different bit depths: no
+20:13:13:  * Point Sprites: yes
+20:13:13:  * Extended point parameters: yes
+20:13:13:  * Max Point Size: 8192
+20:13:13:  * Vertex texture fetch: yes
+20:13:13:    - Max vertex textures: 4
+20:13:13:    - Vertex textures shared: no
+20:13:13:  * Render to Vertex Buffer : no
+20:13:13:  * DirectX per stage constants: yes
+20:13:13: ***************************************
+20:13:13: *** D3D9 : Subsystem Initialised OK ***
+20:13:13: ***************************************
+20:13:13: ResourceBackgroundQueue - threading disabled
+20:13:13: Particle Renderer Type 'billboard' registered
+20:13:13: *** Ogre - Loading Resources *** 
+20:13:14: Creating resource group Bootstrap
+20:13:14: Added resource location '../Media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'Bootstrap'
+20:13:14: Added resource location '../Media/GUI/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/GUI/schemes/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/GUI/wallpapers/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/GUI/MyGUI_Media/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/CEGUI/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Fonts/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Textures/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/packs/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Baked/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Characters/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Compositors/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Materials/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Shadows/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/scenes/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Scripts/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/sounds/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/Textures/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/material/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/models/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/scripts/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/textures/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/Textures/32x32/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/Textures/64x64/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/Textures/128x128/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/Textures/256x256/' of type 'FileSystem' to resource group 'General'
+20:13:14: Added resource location '../Media/ParticleUniverse/Textures/various/' of type 'FileSystem' to resource group 'General'
+20:13:14: Parsing scripts for resource group Autodetect
+20:13:14: Finished parsing scripts for resource group Autodetect
+20:13:14: Parsing scripts for resource group Bootstrap
+20:13:14: Finished parsing scripts for resource group Bootstrap
+20:13:14: Parsing scripts for resource group General
+20:13:14: Parsing script theora_shaders.program
+20:13:14: Parsing script NormalMapping.program
+20:13:14: Parsing script Examples.program
+20:13:15: Parsing script theora_shaders.program
+20:13:15: Parsing script VideoMaterial.material
+20:13:15: Parsing script cross.material
+20:13:15: Parsing script OgreCore.material
+20:13:15: Parsing script OgreProfiler.material
+20:13:15: Parsing script freddy.material
+20:13:15: Parsing script FreddyHeadMaterial.material
+20:13:15: Parsing script Bloom.material
+20:13:15: Parsing script Bloom2.material
+20:13:16: Parsing script 00diffuse.material
+20:13:16: OGRE EXCEPTION(2:InvalidParametersException): Parameter called lightDif0 does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+20:13:16: Compiler error: invalid parameters in 00diffuse.material(106): setting of constant failed
+20:13:16: OGRE EXCEPTION(2:InvalidParametersException): Parameter called lightPos0 does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+20:13:16: Compiler error: invalid parameters in 00diffuse.material(107): setting of constant failed
+20:13:16: OGRE EXCEPTION(2:InvalidParametersException): Parameter called lightAtt0 does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+20:13:16: Compiler error: invalid parameters in 00diffuse.material(108): setting of constant failed
+20:13:16: OGRE EXCEPTION(2:InvalidParametersException): Parameter called invSMSize does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+20:13:16: Compiler error: invalid parameters in 00diffuse.material(109): setting of constant failed
+20:13:16: OGRE EXCEPTION(2:InvalidParametersException): Parameter called depthRange does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+20:13:16: Compiler error: invalid parameters in 00diffuse.material(110): setting of constant failed
+20:13:16: OGRE EXCEPTION(2:InvalidParametersException): Parameter called spotlightParams does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+20:13:16: Compiler error: invalid parameters in 00diffuse.material(111): setting of constant failed
+20:13:16: Parsing script flare.material
+20:13:16: Parsing script metal.material
+20:13:16: Parsing script naruto2.material
+20:13:16: Parsing script ogre.material
+20:13:16: Parsing script shadow_caster.material
+20:13:16: Parsing script sword.material
+20:13:16: Parsing script DepthShadowmap.material
+20:13:16: Parsing script VideoMaterial.material
+20:13:16: Parsing script blood.material
+20:13:16: Parsing script pu_burst.material
+20:13:16: Parsing script pu_explosion.material
+20:13:16: Parsing script pu_flame.material
+20:13:16: Parsing script pu_fxpression.material
+20:13:16: Parsing script pu_generic.material
+20:13:16: Parsing script pu_lightning.material
+20:13:16: Parsing script pu_lod.material
+20:13:16: Parsing script pu_rain.material
+20:13:16: Parsing script pu_stone.material
+20:13:16: Parsing script pu_tornado.material
+20:13:16: Parsing script Bloom.compositor
+20:13:16: Parsing script Ogre.fontdef
+20:13:16: Parsing script OgreDebugPanel.overlay
+20:13:16: Font BlueHighwayusing texture size 512x512
+20:13:16: Info: Freetype returned null for character 127 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 128 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 129 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 130 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 131 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 132 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 133 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 134 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 135 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 136 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 137 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 138 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 139 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 140 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 141 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 142 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 143 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 144 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 145 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 146 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 147 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 148 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 149 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 150 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 151 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 152 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 153 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 154 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 155 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 156 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 157 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 158 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 159 in font BlueHighway
+20:13:16: Info: Freetype returned null for character 160 in font BlueHighway
+20:13:17: Texture: BlueHighwayTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+20:13:17: Parsing script OgreLoadingPanel.overlay
+20:13:17: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+20:13:17: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+20:13:17: Parsing script pu_generic.pua
+20:13:17: ParticleUniverse: Alias '$defaultBillboardRenderer' registered
+20:13:17: ParticleUniverse: Alias '$flatBillboardRenderer' registered
+20:13:17: ParticleUniverse: Alias '$simpleEmitter' registered
+20:13:17: Parsing script GameParticles.pu
+20:13:17: ParticleUniverse: Particle System Template 'example_025_1' registered
+20:13:17: Texture: basic_droplet2.png: Loading 1 faces(PF_R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
+20:13:17: ParticleUniverse: Particle System Template 'example_010' registered
+20:13:17: Texture: pu_flare_12_256x256.png: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+20:13:17: ParticleUniverse: Particle System Template 'luciernagas' registered
+20:13:17: ParticleUniverse: Particle System Template 'fillMesh' registered
+20:13:17: ParticleUniverse: Particle System Template 'kamekameha' registered
+20:13:17: Parsing script pu_example_11_20.pu
+20:13:17: ParticleUniverse: Particle System Template 'example_011' registered
+20:13:17: Texture: pu_green_ball.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+20:13:17: ParticleUniverse: Particle System Template 'example_012' registered
+20:13:17: Texture: pu_dot_03_64x64.png: Loading 1 faces(PF_R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
+20:13:17: ParticleUniverse: Particle System Template 'example_013' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_014' registered
+20:13:17: Mesh: Loading ogrehead.mesh.
+20:13:17: ParticleUniverse: Particle System Template 'example_015' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_016' registered
+20:13:17: Texture: pu_dirt_256x512.png: Loading 1 faces(PF_A8R8G8B8,256x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x512x1.
+20:13:17: ParticleUniverse: Particle System Template 'example_017' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_018' registered
+20:13:17: Texture: pu_hart.png: Loading 1 faces(PF_A8R8G8B8,152x139x1) with 7 generated mipmaps from Image. Internal format is PF_A8R8G8B8,152x139x1.
+20:13:17: ParticleUniverse: Particle System Template 'example_019' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_020' registered
+20:13:17: Parsing script pu_example_1_10.pu
+20:13:17: ParticleUniverse: Alias '$PointEmitter' registered
+20:13:17: ParticleUniverse: Alias '$LinearForce' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_01_A' registered
+20:13:17: Texture: pu_ribbontrail.png: Loading 1 faces(PF_R8G8B8,128x1x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x1x1.
+20:13:17: ParticleUniverse: Particle System Template 'example_001' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_002' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_003' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_004' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_005' registered
+20:13:17: ParticleUniverse: Particle System Template 'example_006' registered
+20:13:18: Texture: crate6.png: Loading 1 faces(PF_R8G8B8,341x512x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,341x512x1.
+20:13:18: ParticleUniverse: Particle System Template 'example_007' registered
+20:13:18: Texture: flare.png: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+20:13:18: ParticleUniverse: Particle System Template 'example_008' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_009' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_010_bck' registered
+20:13:18: Parsing script pu_example_21_30.pu
+20:13:18: ParticleUniverse: Particle System Template 'example_021' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_022' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_023' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_024a' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_024b' registered
+20:13:18: Texture: pu_fire_01_64x64.png: Loading 1 faces(PF_R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
+20:13:18: ParticleUniverse: Particle System Template 'example_025' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_026' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_027' registered
+20:13:18: ParticleUniverse: Particle System Template 'example_028' registered
+20:13:18: Texture: pu_nucleus.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+20:13:18: Texture: pu_smoke_02_128x128.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:18: Parsing script pu_explosion.pu
+20:13:18: ParticleUniverse: Particle System Template 'explosionSystem' registered
+20:13:18: Parsing script pu_flame.pu
+20:13:18: ParticleUniverse: Particle System Template 'flameSystem' registered
+20:13:18: Texture: pu_smoke_black_192x192.png: Loading 1 faces(PF_A8R8G8B8,192x192x1) with 7 generated mipmaps from Image. Internal format is PF_A8R8G8B8,192x192x1.
+20:13:18: ParticleUniverse: Particle System Template 'fireSystem' registered
+20:13:18: Texture: pu_flame.png: Loading 1 faces(PF_R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x64x1.
+20:13:18: Texture: pu_smoke_brown_336x330.png: Loading 1 faces(PF_A8R8G8B8,336x330x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,336x330x1.
+20:13:19: ParticleUniverse: Particle System Template 'windyFireSystem' registered
+20:13:19: Parsing script pu_fxpression.pu
+20:13:19: ParticleUniverse: Particle System Template 'FXpression' registered
+20:13:19: Texture: pu_plate.jpg: Loading 1 faces(PF_R8G8B8,300x225x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,300x225x1.
+20:13:19: Mesh: Loading fxpression.mesh.
+20:13:19: WARNING: fxpression.mesh is an older format ([MeshSerializer_v1.30]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+20:13:19: Parsing script pu_lightning.pu
+20:13:19: ParticleUniverse: Particle System Template 'electricBeamSystem' registered
+20:13:19: Texture: pu_lightning_20x64.png: Loading 1 faces(PF_A8R8G8B8,20x64x1) with 6 generated mipmaps from Image. Internal format is PF_A8R8G8B8,20x64x1.
+20:13:19: Parsing script pu_lod.pu
+20:13:19: ParticleUniverse: Particle System Template 'lodSystem' registered
+20:13:19: ParticleUniverse: Particle System Template 'advancedLodSystem' registered
+20:13:19: Texture: pu_barrel.png: Loading 1 faces(PF_A8R8G8B8,235x295x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,235x295x1.
+20:13:19: Parsing script pu_rain.pu
+20:13:19: ParticleUniverse: Particle System Template 'rainSystem_1' registered
+20:13:19: Texture: pu_rain_01.png: Loading 1 faces(PF_L16,32x1050x1) with 10 generated mipmaps from Image. Internal format is PF_L16,32x1050x1.
+20:13:19: Texture: pu_circle.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+20:13:19: ParticleUniverse: Particle System Template 'rainSystem_2' registered
+20:13:19: Parsing script pu_tornado.pu
+20:13:19: ParticleUniverse: Particle System Template 'tornadoSystem' registered
+20:13:19: Texture: pu_sand_336x330.png: Loading 1 faces(PF_A8R8G8B8,336x330x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,336x330x1.
+20:13:19: Texture: pu_stone.jpeg: Loading 1 faces(PF_R8G8B8,480x360x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,480x360x1.
+20:13:20: Finished parsing scripts for resource group General
+20:13:20: Parsing scripts for resource group Internal
+20:13:20: Finished parsing scripts for resource group Internal
+20:13:21: Texture: core.png: Loading 1 faces(PF_A8R8G8B8,1024x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x256x1.
+20:13:21: Texture: core_pointer.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+20:13:22: Texture: Default_Texture: Loading 1 faces(PF_BYTE_LA,1024x128x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,1024x128x1.
+20:13:28: Texture: Crystal_Clear_Items.png: Loading 1 faces(PF_A8R8G8B8,1024x512x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x512x1.
+20:13:28: Texture: play.png: Loading 1 faces(PF_A8R8G8B8,300x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,300x256x1.
+20:13:28: Texture: Load.png: Loading 1 faces(PF_A8R8G8B8,300x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,300x256x1.
+20:13:28: Texture: Save.png: Loading 1 faces(PF_A8R8G8B8,300x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,300x256x1.
+20:13:29: Texture: Options.png: Loading 1 faces(PF_A8R8G8B8,300x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,300x256x1.
+20:13:29: Texture: Exit.png: Loading 1 faces(PF_A8R8G8B8,300x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,300x256x1.
+20:13:29: Added resource location '../Media/scenes/test' of type 'FileSystem' to resource group 'General'
+20:13:29: Added resource location '../Media/scenes/test/baked' of type 'FileSystem' to resource group 'General'
+20:13:29: Mesh: Loading Level01_Room01.mesh.
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Level01_Room01_Shape.mesh.
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room01_Shape because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room01_Shape because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: ||Creating Camera...             ||
+20:13:29: Mesh: Loading Mesh_Wall07.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall07 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall07 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: ||Creating Camera...             ||
+20:13:29: Mesh: Loading Player1.mesh.
+20:13:29: Can't assign material NoMaterial to SubEntity of Player1 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material NoMaterial to SubEntity of Player1 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Box05.mesh.
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box05 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box05 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading actor.mesh.
+20:13:29: Can't assign material Standard_14 to SubEntity of actor because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Standard_14 to SubEntity of actor because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Box07.mesh.
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box07 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box07 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading actor02.mesh.
+20:13:29: Can't assign material Standard_14 to SubEntity of actor02 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Standard_14 to SubEntity of actor02 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: ||Creating Camera...             ||
+20:13:29: Mesh: Loading Level01_Room02.mesh.
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room02 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room02 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Level01_Room02_Shape.mesh.
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room02_Shape because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room02_Shape because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: ||Creating Camera...             ||
+20:13:29: Mesh: Loading Level01_Room03.mesh.
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room03 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room03 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Level01_Room03_Shape.mesh.
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room03_Shape because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material ActorsMaterial to SubEntity of Level01_Room03_Shape because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall01.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Box01.mesh.
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading door1.mesh.
+20:13:29: Can't assign material Floor_Diff to SubEntity of door1 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Floor_Diff to SubEntity of door1 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading door1Actor.mesh.
+20:13:29: Can't assign material Floor_Diff to SubEntity of door1Actor because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Floor_Diff to SubEntity of door1Actor because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Box08.mesh.
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box08 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box08 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading actor01.mesh.
+20:13:29: Can't assign material Standard_14 to SubEntity of actor01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Standard_14 to SubEntity of actor01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Box09.mesh.
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box09 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Column_Diffuse to SubEntity of Box09 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading actor03.mesh.
+20:13:29: Can't assign material Standard_14 to SubEntity of actor03 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Standard_14 to SubEntity of actor03 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall02.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall02 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall02 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall09.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall09 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall09 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall03.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall03 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall03 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall11.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall11 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall11 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading buttonMesh1.mesh.
+20:13:29: Can't assign material Floor_Diff to SubEntity of buttonMesh1 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material Floor_Diff to SubEntity of buttonMesh1 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading camAnim01.mesh.
+20:13:29: Can't assign material NoMaterial to SubEntity of camAnim01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material NoMaterial to SubEntity of camAnim01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall04.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall04 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall04 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall05.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall05 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall05 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall06.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall06 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall06 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall08.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall08 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall08 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall10.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall10 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall10 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall12.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall12 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall12 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall13.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall13 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall13 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall14.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall14 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall14 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall15.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall15 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall15 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall16.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall16 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall16 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall17.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall17 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall17 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall18.mesh.
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall18 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall18 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:29: Mesh: Loading Mesh_Wall19.mesh.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall19 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall19 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Mesh: Loading Mesh_Wall20.mesh.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall20 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall20 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Mesh: Loading Mesh_Wall21.mesh.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall21 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall21 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Mesh: Loading blade.mesh.
+20:13:30: Can't assign material Column_Diffuse to SubEntity of blade because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Column_Diffuse to SubEntity of blade because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Column_Diffuse to SubEntity of blade because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Column_Diffuse to SubEntity of blade because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Mesh: Loading sword1_actor.mesh.
+20:13:30: Can't assign material Standard_14 to SubEntity of sword1_actor because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Standard_14 to SubEntity of sword1_actor because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Mesh: Loading sword1_actor01.mesh.
+20:13:30: Can't assign material Standard_14 to SubEntity of sword1_actor01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Standard_14 to SubEntity of sword1_actor01 because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: ||Load successful!             ||
+20:13:30: =================================
+20:13:30: Can't assign material Column_Diffuse to SubEntity of Box01_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: D3D9 : Loading 2D Texture, image name : 'plasterskcastle.dds' with 5 mip map levels
+20:13:30: Texture: Box01.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: D3D9 : Loading 2D Texture, image name : 'plasterskcastle_n.dds' with 5 mip map levels
+20:13:30: Can't assign material Column_Diffuse to SubEntity of Box05_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Column_Diffuse to SubEntity of Box07_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Column_Diffuse to SubEntity of Box08_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material Column_Diffuse to SubEntity of Box09_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material ActorsMaterial to SubEntity of Level01_Room01_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material ActorsMaterial to SubEntity of Level01_Room02_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material ActorsMaterial to SubEntity of Level01_Room03_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall01_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: D3D9 : Loading 2D Texture, image name : 'skingradstone02.dds' with 5 mip map levels
+20:13:30: Texture: Mesh_Wall01.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: D3D9 : Loading 2D Texture, image name : 'skingradstone02_n.dds' with 5 mip map levels
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall02_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall02.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall03_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall03.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall04_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall04.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall05_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall05.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall06_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall06.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall07_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall07.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall08_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall08.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall09_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall09.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall10_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall10.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall11_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall11.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall12_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:30: Texture: Mesh_Wall12.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:30: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall13_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall13.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall14_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall14.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall15_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall15.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall16_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall16.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall17_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall17.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall18_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall18.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall19_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall19.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall20_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall20.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Can't assign material StoneWallDiff to SubEntity of Mesh_Wall21_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:31: Texture: Mesh_Wall21.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:31: Mesh: Loading freddy.mesh.
+20:13:31: Skeleton: Loading Freddy.skeleton
+20:13:31: D3D9 : Loading 2D Texture, image name : 'Freddy_diffuse.dds' with 5 mip map levels
+20:13:31: Texture: Freddy_normals.png: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+20:13:32: Texture: FullChar2.bmp: Loading 1 faces(PF_R8G8B8,274x654x1) with 0 generated mipmaps from Image. Internal format is PF_X8R8G8B8,274x654x1.
+20:13:32: Texture: HealthBar.png: Loading 1 faces(PF_A8R8G8B8,40x286x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,40x286x1.
+20:13:32: Texture: backpack.png: Loading 1 faces(PF_A8R8G8B8,150x250x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,150x250x1.
+20:13:32: Texture: CharacterIcon1.png: Loading 1 faces(PF_A8R8G8B8,150x250x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,150x250x1.
+20:13:33: Can't assign material Column_Diffuse to SubEntity of blade_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:33: Can't assign material Column_Diffuse to SubEntity of blade_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:33: D3D9 : Loading 2D Texture, image name : 'metalsmall.dds' with 5 mip map levels
+20:13:33: D3D9 : Loading 2D Texture, image name : 'metalsmall_n.dds' with 5 mip map levels
+20:13:33: Can't assign material Floor_Diff to SubEntity of buttonMesh1_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?
+20:13:33: D3D9 : Loading 2D Texture, image name : 'sidewalksubtile.dds' with 5 mip map levels
+20:13:33: Texture: buttonMesh1.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+20:13:33: D3D9 : Loading 2D Texture, image name : 'sidewalksubtile_n.dds' with 5 mip map levels
+20:13:33: Can't assign material Floor_Diff to SubEntity of door1_Mesh because this Material does not exist. Have you forgotten to define it in a .material script?

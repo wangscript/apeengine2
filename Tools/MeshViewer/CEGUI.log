@@ -1,0 +1,552 @@
+23/06/2009 02:56:53 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+23/06/2009 02:56:53 (InfL1)	+                     Crazy Eddie's GUI System - Event log                    +
+23/06/2009 02:56:53 (InfL1)	+                          (http://www.cegui.org.uk/)                         +
+23/06/2009 02:56:53 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+23/06/2009 02:56:53 (InfL1)	CEGUI::Logger singleton created.
+23/06/2009 02:56:53 (InfL1)	---- Begining CEGUI System initialisation ----
+23/06/2009 02:56:53 (InfL1)	CEGUI::ImagesetManager singleton created
+23/06/2009 02:56:53 (InfL1)	CEGUI::FontManager singleton created.
+23/06/2009 02:56:53 (InfL1)	CEGUI::WindowFactoryManager singleton created
+23/06/2009 02:56:53 (InfL1)	CEGUI::WindowManager singleton created
+23/06/2009 02:56:53 (InfL1)	CEGUI::SchemeManager singleton created.
+23/06/2009 02:56:53 (InfL1)	CEGUI::MouseCursor singleton created.
+23/06/2009 02:56:53 (InfL1)	CEGUI::GlobalEventSet singleton created.
+23/06/2009 02:56:53 (InfL1)	CEGUI::WidgetLookManager singleton created.
+23/06/2009 02:56:53 (InfL1)	CEGUI::WindowRendererManager singleton created
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'DefaultWindow' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'DragContainer' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'ScrolledContainer' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'ClippedContainer' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Checkbox' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/PushButton' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/RadioButton' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Combobox' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/ComboDropList' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Editbox' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/FrameWindow' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/ItemEntry' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Listbox' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/ListHeader' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/ListHeaderSegment' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Menubar' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/PopupMenu' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/MenuItem' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/MultiColumnList' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/MultiLineEditbox' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/ProgressBar' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/ScrollablePane' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Scrollbar' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Slider' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Spinner' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/TabButton' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/TabControl' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Thumb' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Titlebar' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/Tooltip' windows added.
+23/06/2009 02:56:53 (InfL1)	WindowFactory for 'CEGUI/ItemListbox' windows added.
+23/06/2009 02:56:53 (InfL1)	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+23/06/2009 02:56:53 (InfL1)	CEGUI::System singleton created.
+23/06/2009 02:56:53 (InfL1)	---- CEGUI System initialisation completed ----
+23/06/2009 02:56:53 (InfL1)	---- Version 0.5.1 ----
+23/06/2009 02:56:53 (InfL1)	---- Renderer module is: CEGUI::OgreRenderer - Official Ogre based renderer module for CEGUI ----
+23/06/2009 02:56:53 (InfL1)	---- XML Parser module is: CEGUI::ExpatParser - Official expat based parser module for CEGUI ----
+23/06/2009 02:56:53 (InfL1)	---- Scripting module is: None ----
+23/06/2009 02:56:53 (InfL1)	Attempting to load Scheme from file 'TaharezLookSkin.scheme'.
+23/06/2009 02:56:53 (InfL1)	Attempting to create an Imageset from the information specified in file 'TaharezLook.imageset'.
+23/06/2009 02:56:53 (InfL1)	Started creation of Imageset from XML specification:
+23/06/2009 02:56:53 (InfL1)	---- CEGUI Imageset name: TaharezLook
+23/06/2009 02:56:53 (InfL1)	---- Source texture file: TaharezLook.tga in resource group: (Default)
+23/06/2009 02:56:53 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-12.font'.
+23/06/2009 02:56:53 (InfL1)	Started creation of FreeType Font:
+23/06/2009 02:56:53 (InfL1)	---- CEGUI font name: BlueHighway-12
+23/06/2009 02:56:53 (InfL1)	----     Source file: abalc.ttf in resource group: (Default)
+23/06/2009 02:56:53 (InfL1)	---- Real point size: 10
+23/06/2009 02:56:54 (InfL1)	Succsessfully loaded 240 glyphs
+23/06/2009 02:56:54 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-10.font'.
+23/06/2009 02:56:54 (InfL1)	Started creation of FreeType Font:
+23/06/2009 02:56:54 (InfL1)	---- CEGUI font name: BlueHighway-10
+23/06/2009 02:56:54 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+23/06/2009 02:56:54 (InfL1)	---- Real point size: 10
+23/06/2009 02:56:54 (InfL1)	Succsessfully loaded 289 glyphs
+23/06/2009 02:56:54 (InfL1)	Attempting to create Font from the information specified in file 'bluehighway-8.font'.
+23/06/2009 02:56:54 (InfL1)	Started creation of FreeType Font:
+23/06/2009 02:56:54 (InfL1)	---- CEGUI font name: BlueHighway-8
+23/06/2009 02:56:54 (InfL1)	----     Source file: bluehigh.ttf in resource group: (Default)
+23/06/2009 02:56:54 (InfL1)	---- Real point size: 8
+23/06/2009 02:56:54 (InfL1)	Succsessfully loaded 289 glyphs
+23/06/2009 02:56:54 (InfL1)	===== Falagard 'root' element: look and feel parsing begins =====
+23/06/2009 02:56:54 (InfL1)	===== Look and feel parsing completed =====
+23/06/2009 02:56:54 (InfL1)	No window renderer factories specified for module 'CEGUIFalagardWRBase' - adding all available factories...
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Button' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Default' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Editbox' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/FrameWindow' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/ItemEntry' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/ListHeader' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/ListHeaderSegment' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Listbox' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Menubar' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/MenuItem' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/MultiColumnList' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/MultiLineEditbox' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/PopupMenu' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/ProgressBar' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/ScrollablePane' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Scrollbar' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Slider' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Static' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/StaticImage' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/StaticText' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/SystemButton' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/TabButton' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/TabControl' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Titlebar' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/ToggleButton' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/Tooltip' added.
+23/06/2009 02:56:54 (InfL1)	WindowRendererFactory 'Falagard/ItemListbox' added.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Button' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/Button'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Checkbox' using base type 'CEGUI/Checkbox', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'TaharezLook/Checkbox'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/ImageButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/ImageButton'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/RadioButton' using base type 'CEGUI/RadioButton', window renderer 'Falagard/ToggleButton' and Look'N'Feel 'TaharezLook/RadioButton'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/FrameWindow' using base type 'CEGUI/FrameWindow', window renderer 'Falagard/FrameWindow' and Look'N'Feel 'TaharezLook/FrameWindow'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Titlebar' using base type 'CEGUI/Titlebar', window renderer 'Falagard/Titlebar' and Look'N'Feel 'TaharezLook/Titlebar'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/SystemButton' using base type 'CEGUI/PushButton', window renderer 'Falagard/SystemButton' and Look'N'Feel 'TaharezLook/Button'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Editbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'TaharezLook/Editbox'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiLineEditbox' using base type 'CEGUI/MultiLineEditbox', window renderer 'Falagard/MultiLineEditbox' and Look'N'Feel 'TaharezLook/MultiLineEditbox'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Menubar' using base type 'CEGUI/Menubar', window renderer 'Falagard/Menubar' and Look'N'Feel 'TaharezLook/Menubar'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/PopupMenu' using base type 'CEGUI/PopupMenu', window renderer 'Falagard/PopupMenu' and Look'N'Feel 'TaharezLook/PopupMenu'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/MenuItem' using base type 'CEGUI/MenuItem', window renderer 'Falagard/MenuItem' and Look'N'Feel 'TaharezLook/MenuItem'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/AlternateProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/AltProgressBar'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/ProgressBar' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/ProgressBar'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/VUMeter' using base type 'CEGUI/ProgressBar', window renderer 'Falagard/ProgressBar' and Look'N'Feel 'TaharezLook/VUMeter'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/VerticalScrollbar'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/HorizontalScrollbar'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/VerticalScrollbarThumb'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/HorizontalScrollbarThumb'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbar' using base type 'CEGUI/Scrollbar', window renderer 'Falagard/Scrollbar' and Look'N'Feel 'TaharezLook/LargeVerticalScrollbar'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbarThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/LargeVerticalScrollbarThumb'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabButton' using base type 'CEGUI/TabButton', window renderer 'Falagard/TabButton' and Look'N'Feel 'TaharezLook/TabButton'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabControl' using base type 'CEGUI/TabControl', window renderer 'Falagard/TabControl' and Look'N'Feel 'TaharezLook/TabControl'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabContentPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/TabContentPane'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabButtonPane' using base type 'DefaultWindow', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/TabButtonPane'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboDropList' using base type 'CEGUI/ComboDropList', window renderer 'Falagard/Listbox' and Look'N'Feel 'TaharezLook/ComboDropList'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboEditbox' using base type 'CEGUI/Editbox', window renderer 'Falagard/Editbox' and Look'N'Feel 'TaharezLook/ComboEditbox'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Combobox' using base type 'CEGUI/Combobox', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/Combobox'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Listbox' using base type 'CEGUI/Listbox', window renderer 'Falagard/Listbox' and Look'N'Feel 'TaharezLook/Listbox'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeader' using base type 'CEGUI/ListHeader', window renderer 'Falagard/ListHeader' and Look'N'Feel 'TaharezLook/ListHeader'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeaderSegment' using base type 'CEGUI/ListHeaderSegment', window renderer 'Falagard/ListHeaderSegment' and Look'N'Feel 'TaharezLook/ListHeaderSegment'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiColumnList' using base type 'CEGUI/MultiColumnList', window renderer 'Falagard/MultiColumnList' and Look'N'Feel 'TaharezLook/MultiColumnList'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Slider' using base type 'CEGUI/Slider', window renderer 'Falagard/Slider' and Look'N'Feel 'TaharezLook/Slider'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/SliderThumb' using base type 'CEGUI/Thumb', window renderer 'Falagard/Button' and Look'N'Feel 'TaharezLook/SliderThumb'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/ScrollablePane' using base type 'CEGUI/ScrollablePane', window renderer 'Falagard/ScrollablePane' and Look'N'Feel 'TaharezLook/ScrollablePane'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Spinner' using base type 'CEGUI/Spinner', window renderer 'Falagard/Default' and Look'N'Feel 'TaharezLook/Spinner'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/Tooltip' using base type 'CEGUI/Tooltip', window renderer 'Falagard/Tooltip' and Look'N'Feel 'TaharezLook/Tooltip'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticImage' using base type 'DefaultWindow', window renderer 'Falagard/StaticImage' and Look'N'Feel 'TaharezLook/StaticImage'.
+23/06/2009 02:56:54 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticText' using base type 'DefaultWindow', window renderer 'Falagard/StaticText' and Look'N'Feel 'TaharezLook/StaticText'.
+23/06/2009 02:56:54 (InfL1)	Attempting to create Imageset 'BlueHighway-12_auto_glyph_images_ ' with texture only.
+23/06/2009 02:56:54 (Error)	Exception: Imageset::getImage - The Image named 'GenericBrush' could not be found in Imageset 'TaharezLook'.
+23/06/2009 02:56:54 (Error)	Exception: Imageset::getImage - The Image named 'GenericBrush' could not be found in Imageset 'TaharezLook'.
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (Error)	Exception: FontManager::getFont - A Font object with the specified name 'bluehighway-10' does not exist within the system
+23/06/2009 02:56:54 (InfL1)	---- Successfully completed loading of GUI layout from 'meshviewer.layout' ----
+23/06/2009 02:56:58 (InfL1)	Attempting to create Imageset 'FreddyMaterialFreddy_diffuse.dds' with texture only.
+23/06/2009 02:59:22 (InfL1)	---- Begining CEGUI System destruction ----
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/GroupBox' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshBox' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBox' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshLogInfo' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs/MeshLogInfo' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/OgreLog' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs/OgreLogInfo' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs__auto_TabPane__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs__auto_TabPane__Buttons__auto_btnMeshLogInfo' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs__auto_TabPane__Buttons__auto_btnOgreLogInfo' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs__auto_TabPane__Buttons' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs__auto_TabPane__ScrollLeft' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs__auto_TabPane__ScrollRight' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogInfo/MainTabs' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/FPSButton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/TriButton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/ExitButton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/LogButton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfoButton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfoButton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/AddResourcePath' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo__auto_titlebar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo__auto_closebutton__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage/Tree' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/TreeViewPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshesTitle' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SubMeshList' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialsTitle' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/MaterialList' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage/SelectLOD' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/SubEntityPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text1' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimList' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimPlay' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimStop' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text2' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimSpeed__auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimSpeed__auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimSpeed__auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimSpeed' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/SpeedPause' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/SwitchHardwareAnimation' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseList' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text12' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseKey__auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseKey__auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseKey__auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/PoseKey' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text24' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/AnimPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/BoneList' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/Text11' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/AnimPage/ShowSkeleton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/BonesPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/OptimizeBuffers' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/AddLod' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Tangentify' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/SaveButton' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/tootleMesh' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/OptimizeAll' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/OptimizeIndex' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/BuildEdgeList' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/OptimizeAnimation' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/ExportXML' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/isporpotionalLod' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'isproportionalText' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/SelectNumMesh__auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/SelectNumMesh__auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/SelectNumMesh__auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/SelectNumMesh' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Text21' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodDistance__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodDistance__auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodDistance__auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodDistance' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodPercentage__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodPercentage__auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodPercentage__auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodPercentage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'interLodDistanceText4' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'numberLodText6' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/Reload' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/SelectNumMeshOk' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/ImportXML' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodNum__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodNum__auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodNum__auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage/LodNum' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43__auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'reductionAmountText43' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs/ToolPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__Buttons__auto_btnTreeViewPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__Buttons__auto_btnSubEntityPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__Buttons__auto_btnAnimPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__Buttons__auto_btnBonesPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__Buttons__auto_btnToolPage' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__Buttons' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__ScrollLeft' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs__auto_TabPane__ScrollRight' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo/MainTabs' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MeshInfo' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo__auto_titlebar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo__auto_closebutton__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxSchemeSelect' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxPassSelect' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTechniqueSelect' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_editbox__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_droplist__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect__auto_button__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialBoxTextureUnitSelect' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs/Material' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs__auto_TabPane__' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs__auto_TabPane__Buttons__auto_btnMaterial' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs__auto_TabPane__Buttons' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs__auto_TabPane__ScrollLeft' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs__auto_TabPane__ScrollRight' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo/MainTabs/Material/Preview' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'MeshViewer/MaterialInfo' has been added to dead pool.
+23/06/2009 02:59:22 (InfL2)	Window 'root' has been added to dead pool.
+23/06/2009 02:59:22 (InfL1)	---- Begining cleanup of GUI Scheme system ----
+23/06/2009 02:59:22 (InfL2)	---- Begining resource cleanup for GUI scheme 'TaharezLook' ----
+23/06/2009 02:59:22 (InfL2)	Imageset 'BlueHighway-12_auto_glyph_images_ ' has been destroyed.
+23/06/2009 02:59:22 (InfL1)	Font 'BlueHighway-12' has been destroyed.
+23/06/2009 02:59:22 (InfL1)	Font 'BlueHighway-10' has been destroyed.
+23/06/2009 02:59:22 (InfL1)	Font 'BlueHighway-8' has been destroyed.
+23/06/2009 02:59:22 (InfL2)	Imageset 'TaharezLook' has been destroyed.
+23/06/2009 02:59:22 (InfL2)	---- Resource cleanup for GUI scheme 'TaharezLook' completed ----
+23/06/2009 02:59:22 (InfL2)	GUI scheme 'TaharezLook' has been unloaded.
+23/06/2009 02:59:22 (InfL1)	Scheme 'TaharezLook' has been unloaded.
+23/06/2009 02:59:22 (InfL1)	CEGUI::SchemeManager singleton destroyed.
+23/06/2009 02:59:22 (InfL1)	CEGUI::WindowManager singleton destroyed
+23/06/2009 02:59:22 (InfL1)	CEGUI::WindowFactoryManager singleton destroyed
+23/06/2009 02:59:22 (InfL1)	CEGUI::WidgetLookManager singleton destroyed.
+23/06/2009 02:59:22 (InfL1)	CEGUI::WindowRendererManager singleton destroyed
+23/06/2009 02:59:22 (InfL1)	---- Begining cleanup of Font system ----
+23/06/2009 02:59:22 (InfL1)	CEGUI::FontManager singleton destroyed.
+23/06/2009 02:59:22 (InfL1)	CEGUI::MouseCursor singleton destroyed.
+23/06/2009 02:59:22 (InfL1)	---- Begining cleanup of Imageset system ----
+23/06/2009 02:59:22 (InfL2)	Imageset 'FreddyMaterialFreddy_diffuse.dds' has been destroyed.
+23/06/2009 02:59:22 (InfL1)	CEGUI::ImagesetManager singleton destroyed
+23/06/2009 02:59:22 (InfL1)	CEGUI::GlobalEventSet singleton destroyed.
+23/06/2009 02:59:22 (InfL1)	CEGUI::System singleton destroyed.
+23/06/2009 02:59:22 (InfL1)	---- CEGUI System destruction completed ----
+23/06/2009 02:59:22 (InfL1)	CEGUI::Logger singleton destroyed.

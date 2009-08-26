@@ -1,0 +1,293 @@
+	void OgreMaxManager::setChildShapesToParents(OgreMaxScene* maxScene) {
+		std::map<const std::string, GameObject*> gos;
+		gos  = TaskManager::getSingleton().getGameObjects();
+		std::map<const std::string, GameObject*>::iterator iter;
+
+		for(iter = gos.begin(); iter != gos.end(); iter++) {
+
+			CMesh *mesh = dynamic_cast<CMesh*>(iter->second->getComponent("CMesh"));
+			CPosition *pos = dynamic_cast<CPosition*>(iter->second->getComponent("CPosition"));
+			COrientation *orient = dynamic_cast<COrientation*>(iter->second->getComponent("COrientation"));
+			CPhysicsActor *actor = dynamic_cast<CPhysicsActor*>(iter->second->getComponent("CPhysicsActor"));
+
+			if(mesh && pos && orient && actor) {
+
+				//NxOgre::CompoundShape* compShape = new NxOgre::CompoundShape();
+				//ChildShape shapeDesc;
+
+				bool make = false;
+
+				
+				Ogre::Real restitution = 0.8f;
+				Ogre::Real dynamicFriction = 1.0f;
+				Ogre::Real staticFriction = 1.0f;
+				Ogre::Real mass = 10.0f;
+				Ogre::Real density = 10.0f;
+				Ogre::Real angularDamping = 0.5f;
+				Ogre::Real linearDamping = 0.0f;
+				Ogre::Real skinWidth = 0.0f;
+
+				NxBoxShapeDesc shape;
+				shape.dimensions = NxVec3(1,1,1);
+
+				shape.mass = mass;
+				shape.density = density;
+				shape.skinWidth = skinWidth;
+
+				NxVec3 offset = NxVec3(0,0,0); // - NxVec3(parentPos.x,parentPos.y,parentPos.z);
+				shape.localPose.t = offset;
+
+				//NxQuat q = NxTools::convert(orientation);
+				//shape.localPose.M.fromQuat(q);
+
+				NxMaterialDesc  m;
+				m.restitution   = restitution;
+				m.staticFriction  = staticFriction;
+				m.dynamicFriction = dynamicFriction;
+
+				NxMaterialIndex mat = PhysicsManager::getSingleton().getScene()->createMaterial(m)->getMaterialIndex();
+				shape.materialIndex = mat;
+				
+				//NxActorDesc ad;
+				//NxBodyDesc bd;
+				//bd.setToDefault();
+				////bd.flags |= NX_BF_KINEMATIC;
+				//
+				//bd.angularDamping	= angularDamping;
+				//ad.body			= &bd;
+				//ad.density		= 10.0f;
+
+				//ad.globalPose.t  = NxVec3(pos->x,pos->y,pos->z);
+
+				//ad.shapes.pushBack(&shape);
+
+				////NxActor* ac;
+				//if(ad.isValid()) {
+				//	PhysicsManager::getSingleton().getScene()->createActor(ad);
+				//	//actor->mActor = PhysicsManager::getSingleton().getScene()->createActor(actor->mDesc.actorDesc);
+				//} else {
+
+				//}
+
+				NxBodyDesc bodyDesc;
+				bodyDesc.angularDamping	= 0.5f;
+				//if(initialVelocity) bodyDesc.linearVelocity = *initialVelocity;
+
+				NxBoxShapeDesc boxDesc;
+				boxDesc.dimensions = NxVec3((float)1, (float)1, (float)1);
+
+				NxActorDesc actorDesc;
+				actorDesc.shapes.pushBack(&boxDesc);
+				actorDesc.body			= &bodyDesc;
+				actorDesc.density		= 10.0f;
+				actorDesc.globalPose.t  = NxVec3(pos->x,pos->y,pos->z);
+
+				//PhysicsManager::getSingleton().getScene()->createActor(actorDesc); //->userData = (void*)size_t(size);
+
+
+				//////////////////////////////////////////////////////////////////////////
+
+				
+				//actor->mDesc.bodyDesc.flags |= NX_BF_KINEMATIC;
+
+				actor->mDesc.bodyDesc.angularDamping	= angularDamping;
+				actor->mDesc.actorDesc.body			= &actor->mDesc.bodyDesc;
+				actor->mDesc.actorDesc.density		= 10.0f;
+				
+				
+				actor->mDesc.actorDesc.globalPose.t  = NxVec3(pos->x,pos->y,pos->z);
+				
+				//actor->mDesc.actorDesc.globalPose.t  = NxVec3(0,0,0);
+				//actor->mDesc.actorDesc.flags |= 
+
+				//int i = 0;
+
+				//NxConvexShapeDesc cs1;
+				//NxConvexShapeDesc cs2;
+				//NxConvexShapeDesc cs3;
+				//NxConvexShapeDesc cs4;
+
+
+				//if(actor->mDesc.actorDesc.isValid())
+				//	actor->mActor = PhysicsManager::getSingleton().getScene()->createActor(actor->mDesc.actorDesc);
+
+				make = false;
+				int i = 0;
+
+				std::map<const std::string, ChildShape>::iterator shapeIter;
+				for(shapeIter = mChildShapeList.begin(); shapeIter != mChildShapeList.end(); shapeIter++) {
+
+					std::string objName = mesh->getOwnerObject()->getID();
+					std::string parentName = shapeIter->second.parentName;
+					if( objName == parentName) {
+
+
+					
+						//NxConvexShapeDesc shape = getConvexShapeDesc(Ogre::Vector3::ZERO,mShapeType,mPhysicsShapeType,path,Ogre::Vector3(1,1,1),position,quat,mass,density,skinWidth,restitution,dynamicFriction,staticFriction);
+						//actor->mDesc.actorDesc.shapes.pushBack(&shape);
+						//NxBoxShapeDesc shape = getBoxShapeDesc(Ogre::Vector3::ZERO,"Box",mPhysicsShapeType,path,Ogre::Vector3(1,1,1),position,quat,mass,density,skinWidth,restitution,dynamicFriction,staticFriction);
+						//bool error = false;
+						//if (!shape.isValid())
+						//	error = true;
+						//actor->mDesc.actorDesc.shapes.pushBack(&shape);
+						//NxBoxShapeDesc bs;
+						//bs.setToDefault();
+						//bs.dimensions = NxVec3(0.1,0.1,0.1);
+						//bs.mass = 10;
+						//bool error = false;
+						//if (!bs.isValid())
+						//	error = true;
+						//actor->mDesc.actorDesc.shapes.pushBack(&bs);
+
+						NxVec3 parentPos = NxVec3( actor->mDesc.actorDesc.globalPose.t );
+
+						std::string mShapeType = shapeIter->second.shapeType;
+						std::string mPhysicsShapeType = shapeIter->second.shapeFileType;
+						std::string path = shapeIter->second.path;
+						Vector3 position = shapeIter->second.position;
+						Quaternion quat = shapeIter->second.orientation;
+
+
+						Ogre::Vector3 p;
+						Ogre::Quaternion o;
+
+						p = position;
+						o = quat;
+						
+						//Ogre::Vector3::ZERO,
+						//"EditableMesh"
+						//"Convex"
+						//"CapsuleActor01.mesh.nxs"
+						//shapeIter->second.shapeSize
+						//p
+						//o
+						//shapeIter->second.mass
+						//shapeIter->second.density
+						//0.0f
+						//shapeIter->second.restitution
+						//shapeIter->second.dynamicFriction
+						//shapeIter->second.staticFriction
+
+						NxConvexShapeDesc cs1 = getConvexShapeDesc(Ogre::Vector3::ZERO,"EditableMesh","Convex",path,shapeIter->second.shapeSize,p,o,shapeIter->second.mass,shapeIter->second.density,0.0f,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						actor->mDesc.actorDesc.shapes.pushBack(&cs1);
+
+						//actor->mDesc.actorDesc.shapes.pushBack( &getConvexShapeDesc(Ogre::Vector3::ZERO,"EditableMesh","Convex",path,shapeIter->second.shapeSize,p,o,shapeIter->second.mass,shapeIter->second.density,0.0f,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction) );
+
+						i++;
+
+						if(i == 4) {
+							if(actor->mDesc.actorDesc.isValid()) {
+								actor->mActor = PhysicsManager::getSingleton().getScene()->createActor(actor->mDesc.actorDesc);
+								return;
+							}
+						}
+
+						//Ogre::Vector3 p;
+						//Ogre::Quaternion o;
+
+						//p = Ogre::Vector3(0.00230408,0.103203,-7.10513);
+						//o = Ogre::Quaternion(0.260747,0.648184,0.666291,-0.260625);
+						//NxConvexShapeDesc cs1 = getConvexShapeDesc(Ogre::Vector3::ZERO,"EditableMesh","Convex","CapsuleActor01.mesh.nxs",shapeIter->second.shapeSize,p,o,shapeIter->second.mass,shapeIter->second.density,0.0f,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs1);
+
+						//p = Ogre::Vector3(5.04042,3.81852,-3.33385);
+						//o = Ogre::Quaternion(0.648478,0.260014,0.649081,0.300938);
+						//NxConvexShapeDesc cs2 = getConvexShapeDesc(Ogre::Vector3::ZERO,"EditableMesh","Convex","CapsuleActor02.mesh.nxs",shapeIter->second.shapeSize,p,o,shapeIter->second.mass,shapeIter->second.density,0.0f,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs2);
+						//
+						//p = Ogre::Vector3(-4.84137,3.6477,-3.173);
+						//o = Ogre::Quaternion(0.648478,0.260014,0.649081,0.300938);
+						//NxConvexShapeDesc cs3 = getConvexShapeDesc(Ogre::Vector3::ZERO,"EditableMesh","Convex","CapsuleActor03.mesh.nxs",shapeIter->second.shapeSize,p,o,shapeIter->second.mass,shapeIter->second.density,0.0f,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs3);
+
+						//p = Ogre::Vector3(-5.17179,3.21374,3.78952);
+						//o = Ogre::Quaternion(0.265609,0.655456,0.246365,0.662671);
+						//NxConvexShapeDesc cs4 = getConvexShapeDesc(Ogre::Vector3::ZERO,"EditableMesh","Convex","CapsuleActor04.mesh.nxs",shapeIter->second.shapeSize,p,o,shapeIter->second.mass,shapeIter->second.density,0.0f,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs4);
+
+						//if(actor->mDesc.actorDesc.isValid()) {
+						//	actor->mActor = PhysicsManager::getSingleton().getScene()->createActor(actor->mDesc.actorDesc);
+						//	return;
+						//}
+
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs1);
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs2);
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs3);
+						//actor->mDesc.actorDesc.shapes.pushBack(&cs4);
+
+						//if (mShapeType == "EditableMesh") {
+						//	if(mPhysicsShapeType == "Convex") {
+						//		NxConvexShapeDesc shape = getConvexShapeDesc(static_cast<Vector3>(*pos),mShapeType,mPhysicsShapeType,shapeIter->second.path,shapeIter->second.shapeSize,shapeIter->second.position,shapeIter->second.orientation,shapeIter->second.mass,shapeIter->second.density,0.0f,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//		//shape.meshFlags |= N
+						//		//NxBoxShapeDesc shape = getBoxShapeDesc(static_cast<Vector3>(*pos),mShapeType,mPhysicsShapeType,shapeIter->second.path,Ogre::Vector3(0.1,0.1,0.1),shapeIter->second.position,shapeIter->second.orientation,shapeIter->second.mass,shapeIter->second.density,shapeIter->second.skinWidth,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//		actor->mDesc.actorDesc.shapes.pushBack(&shape);
+						//	}
+						//	if(mPhysicsShapeType == "Triangle") {
+						//		NxTriangleMeshShapeDesc shape = getTriangleShapeDesc(static_cast<Vector3>(*pos),mShapeType,mPhysicsShapeType,shapeIter->second.path,shapeIter->second.shapeSize,shapeIter->second.position,shapeIter->second.orientation,shapeIter->second.mass,shapeIter->second.density,shapeIter->second.skinWidth,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//		actor->mDesc.actorDesc.shapes.pushBack(&shape);
+						//	}
+						//} else if (mShapeType == "Box") {
+						//	NxBoxShapeDesc shape = getBoxShapeDesc(static_cast<Vector3>(*pos),mShapeType,mPhysicsShapeType,shapeIter->second.path,shapeIter->second.shapeSize,shapeIter->second.position,shapeIter->second.orientation,shapeIter->second.mass,shapeIter->second.density,shapeIter->second.skinWidth,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//	actor->mDesc.actorDesc.shapes.pushBack(&shape);
+						//} else if (mShapeType == "Capsule") {
+						//	NxCapsuleShapeDesc shape = getCapsuleShapeDesc(static_cast<Vector3>(*pos),mShapeType,mPhysicsShapeType,shapeIter->second.path,shapeIter->second.shapeSize,shapeIter->second.position,shapeIter->second.orientation,shapeIter->second.mass,shapeIter->second.density,shapeIter->second.skinWidth,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//	actor->mDesc.actorDesc.shapes.pushBack(&shape);
+						//} else if (mShapeType == "Sphere") {
+						//	NxSphereShapeDesc shape = getSphereShapeDesc(static_cast<Vector3>(*pos),mShapeType,mPhysicsShapeType,shapeIter->second.path,shapeIter->second.shapeSize,shapeIter->second.position,shapeIter->second.orientation,shapeIter->second.mass,shapeIter->second.density,shapeIter->second.skinWidth,shapeIter->second.restitution,shapeIter->second.dynamicFriction,shapeIter->second.staticFriction);
+						//	actor->mDesc.actorDesc.shapes.pushBack(&shape);
+						//}
+						//
+
+
+						//if(!actor->mDesc.actorDesc.isValid()) {
+						//	error = true;
+						//}
+
+						//shapeIter->second.shapeDesc->localPose.t
+						//shapeIter->second.shapeDesc->localPose.M.fromQuat();
+						
+						//NxVec3 shapePos = shapeIter->second.shapeDesc->localPose.t;
+						//shapeIter->second.shapeDesc->localPose.t = parentPos + shapePos;
+							
+						//actor->getDescription().actorDesc.shapes.pushBack( &(NxShapeDesc&)(*shapeIter->second.shapeDesc) );
+						
+						//addShapeDesc(actor->getDescription().actorDesc,
+						//			Ogre::Vector3(parentPos.x,parentPos.y,parentPos.z),
+						//			shapeIter->second.shapeType,
+						//			shapeIter->second.shapeFileType,
+						//			shapeIter->second.path,
+						//			shapeIter->second.shapeSize,
+						//			shapeIter->second.position,
+						//			shapeIter->second.orientation,
+						//			shapeIter->second.mass,
+						//			shapeIter->second.density,
+						//			shapeIter->second.skinWidth,
+						//			shapeIter->second.restitution,
+						//			shapeIter->second.dynamicFriction,
+						//			shapeIter->second.staticFriction
+						//);
+
+						//cd.shapeDesc = (NxShapeDesc*)&(getShapeDesc(mShapeType,mPhysicsShapeType,mEntityName + ".mesh.nxs",mShapeSize
+						//	,mPosition,mOrientation,mMass,mDensity,0.0f,mRestitution,mDynamicFriction
+						//	,mStaticFriction) );
+
+						make = true;
+					}
+
+				}
+
+				/*actor->mDesc.actorDesc.shapes.pushBack(&cs1);*/
+				//actor->mDesc.actorDesc.shapes.pushBack(&cs2);
+				//actor->mDesc.actorDesc.shapes.pushBack(&cs3);
+				//actor->mDesc.actorDesc.shapes.pushBack(&cs4);
+				//if(make) {
+				//	if(actor->mDesc.actorDesc.isValid()) {
+				//		actor->mActor = PhysicsManager::getSingleton().getScene()->createActor(actor->mDesc.actorDesc);
+				//		return;
+				//	}
+				//}
+
+			}
+		}
+
+	}

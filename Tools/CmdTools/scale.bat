@@ -1,0 +1,1 @@
+meshmagick transform -scale=0.01/0.01/0.01 ninja.mesh

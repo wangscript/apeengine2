@@ -1,0 +1,2491 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="100" minOgreVersion="1.7" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="0" g="0" b="0" />
+    </environment>
+    <nodes>
+        <node name="Level01_Room01">
+            <scale x="1" y="1" z="1" />
+            <position x="-38.3752" y="-63.7664" z="4.42228" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Level01_Room01" id="35" meshFile="Level01_Room01.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Level01_Room01
+meshName:Level01_Room01.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:ParentRoom
+size:170.82 210.538 258.112 
+cameraName:Camera01_Level01
+isRoom:true
+childNode1:Level01_Room01_Shape
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -38.3752 -63.7664 4.42228
+bodyType:Mesh
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="ActorsMaterial" />
+                </subentities>
+            </entity>
+            <node name="Level01_Room01_Shape">
+                <scale x="1" y="1" z="1" />
+                <position x="-7.62939e-006" y="0" z="0" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Level01_Room01_Shape" id="1003" meshFile="Level01_Room01_Shape.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:Level01_Room01_Shape
+meshName:Level01_Room01_Shape.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:Level01_Room01
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -38.3752 -63.7664 0.0
+bodyType:Shape
+physicsMeshType:Convex
+parentRoom:default
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="ActorsMaterial" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Fspot02">
+            <scale x="138.905" y="138.905" z="138.905" />
+            <position x="-12162.2" y="6120.82" z="-16893.8" />
+            <rotation qx="-0.128644" qy="-0.265768" qz="-0.0318838" qw="-0.954883" />
+            <light name="Fspot02" id="142" type="spot" castShadows="false" power="31.0833">
+                <colourDiffuse r="1" g="1" b="1" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="3153.79" constant="1" linear="0" quadric="0" />
+                <lightRange inner="0.747001" outer="1.20777" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+enabled:false
+templateName:undefined
+rotation:0.766169 0.584239 -0.165381 -0.210472]]>
+</userData>
+            </light>
+        </node>
+        <node name="Camera01_Level01">
+            <scale x="1" y="1" z="1" />
+            <position x="-36.8733" y="-52.5417" z="-45.1565" />
+            <rotation qx="7.18334e-005" qy="0.992701" qz="0.120602" qw="-0.000591276" />
+            <trackTarget nodeName="Camera01_Level01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+            <animations>
+                <animation name="camAnim01" enable="true" loop="true" interpolationMode="spline" rotationInterpolationMode="spherical" length="2.66667">
+                    <keyframe time="0">
+                        <translation x="-36.8733" y="-52.5417" z="-45.1565" />
+                        <rotation qx="7.18334e-005" qy="0.992701" qz="0.120602" qw="-0.000591322" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.666667">
+                        <translation x="-28.4676" y="-52.5417" z="-45.1565" />
+                        <rotation qx="-0.00896428" qy="0.990052" qz="0.118961" qw="0.0746052" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.33333">
+                        <translation x="-28.4676" y="-44.2684" z="-45.1565" />
+                        <rotation qx="-0.0139704" qy="0.979787" qz="0.185395" qw="0.0738316" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2">
+                        <translation x="-42.1289" y="-44.2684" z="-45.1565" />
+                        <rotation qx="0.00901244" qy="0.981211" qz="0.186826" qw="-0.0473334" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.66667">
+                        <translation x="-42.1289" y="-57.8771" z="-45.1565" />
+                        <rotation qx="0.00355927" qy="0.99611" qz="0.0737828" qw="-0.0480521" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <camera name="Camera01_Level01" id="204" fov="1.20147">
+                <clipping near="1" far="1000" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+templateName:cam01]]>
+</userData>
+            </camera>
+        </node>
+        <node name="Camera01_Level01.Target" id="205">
+            <scale x="1" y="1" z="1" />
+            <position x="-36.8077" y="-66.1118" z="9.86809" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[
+parentRoom:Level01_Room01
+templateName:undefined]]>
+</userData>
+        </node>
+        <node name="Mesh_Wall07">
+            <scale x="1" y="1" z="1" />
+            <position x="-16.358" y="-76.3402" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall07" id="233" meshFile="Mesh_Wall07.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall07
+meshName:Mesh_Wall07.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -16.358 -76.3402 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Camera01">
+            <scale x="1" y="1" z="1" />
+            <position x="721.667" y="1490.01" z="717.995" />
+            <rotation qx="-0.184102" qy="0.371537" qz="0.0754269" qw="0.90685" />
+            <trackTarget nodeName="Camera01.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+            <camera name="Camera01" id="618" fov="0.602557">
+                <clipping near="2.54" far="2540" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+templateName:undefined]]>
+</userData>
+            </camera>
+        </node>
+        <node name="Camera01.Target" id="619">
+            <scale x="1" y="1" z="1" />
+            <position x="158.428" y="1150.06" z="145.997" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[
+parentRoom:undefined
+templateName:undefined]]>
+</userData>
+        </node>
+        <node name="Player1">
+            <scale x="1" y="1" z="1" />
+            <position x="-15.3102" y="-58.9827" z="1.67353" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Player1" id="718" meshFile="Player1.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Player1
+meshName:Player1.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:true
+isSmallCreature:undefined
+isCharacter:true
+characterName:character1
+characterMeshName:freddy.mesh
+diagramFile:diagram.xml
+animationFile:animation_info.xml
+templateName:Player1
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -15.3102 -58.9827 1.67353
+bodyType:Actor
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Box05">
+            <scale x="1" y="1" z="1" />
+            <position x="-25.6608" y="-81.146" z="2.12978" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <animations>
+                <animation name="Down" enable="true" loop="false" interpolationMode="spline" rotationInterpolationMode="spherical" length="1.66667">
+                    <keyframe time="0">
+                        <translation x="-25.6608" y="-81.146" z="2.12978" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.66667">
+                        <translation x="-25.6608" y="-83.1126" z="2.12978" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+                <animation name="Up" enable="true" loop="false" interpolationMode="spline" rotationInterpolationMode="spherical" length="1.66667">
+                    <keyframe time="0">
+                        <translation x="-25.6608" y="-83.1126" z="2.12978" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.66667">
+                        <translation x="-25.6608" y="-81.146" z="2.12978" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <entity name="Box05" id="726" meshFile="Box05.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Box05
+meshName:Box05.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+childNode1:actor
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:true
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:plasterskcastle.dds
+templateName:elevator1
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -25.6608 -81.3505 2.12978
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Column_Diffuse" />
+                </subentities>
+            </entity>
+            <node name="actor">
+                <scale x="1" y="1" z="1" />
+                <position x="0" y="0" z="0" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="actor" id="727" meshFile="actor.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:actor
+meshName:actor.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:Box05
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -25.6608 -81.3505 0.0
+bodyType:Shape
+physicsMeshType:Convex
+parentRoom:undefined
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="Standard_14" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Box07">
+            <scale x="1" y="1" z="1" />
+            <position x="-82.7712" y="-76.1624" z="2.13258" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Box07" id="734" meshFile="Box07.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Box07
+meshName:Box07.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+childNode1:actor02
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:plasterskcastle.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -82.7712 -76.1624 2.13258
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Column_Diffuse" />
+                </subentities>
+            </entity>
+            <node name="actor02">
+                <scale x="1" y="1" z="1" />
+                <position x="-1.52588e-005" y="-2.28882e-005" z="0" />
+                <rotation qx="0" qy="0" qz="0.211701" qw="0.977334" />
+                <entity name="actor02" id="733" meshFile="actor02.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:actor02
+meshName:actor02.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:Box07
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:0.977334 0.0 0.0 -0.211701
+position: -82.7712 -76.1624 -0.211701
+bodyType:Shape
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="Standard_14" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Omni02">
+            <scale x="1" y="1" z="1" />
+            <position x="-15.3436" y="-48.3412" z="-5.21672" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni02" id="849" type="point" castShadows="false" power="325.426">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.9877" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni08">
+            <scale x="1" y="1" z="1" />
+            <position x="-76.3543" y="-38.5358" z="2.58546" />
+            <rotation qx="-0.5" qy="0.5" qz="-0.5" qw="-0.5" />
+            <light name="Omni08" id="851" type="point" castShadows="false" power="325.64">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.1106" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:0.707107 0.0 0.707107 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni03">
+            <scale x="1" y="1" z="1" />
+            <position x="-50.7199" y="-41.8926" z="-2.24994" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni03" id="866" type="point" castShadows="false" power="325.426">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.9877" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni06">
+            <scale x="1" y="1" z="1" />
+            <position x="-28.4312" y="-49.9237" z="-22.2253" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni06" id="938" type="point" castShadows="false" power="72.5364">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="154.632" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Camera01_Level02">
+            <scale x="1" y="1" z="1" />
+            <position x="48.6683" y="-52.5417" z="-45.1565" />
+            <rotation qx="7.18334e-005" qy="0.992701" qz="0.120602" qw="-0.000591276" />
+            <trackTarget nodeName="Camera01_Level02.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+            <camera name="Camera01_Level02" id="975" fov="1.20147">
+                <clipping near="1" far="1000" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room02
+templateName:undefined]]>
+</userData>
+            </camera>
+        </node>
+        <node name="Camera01_Level02.Target" id="976">
+            <scale x="1" y="1" z="1" />
+            <position x="48.7339" y="-66.1118" z="9.86811" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[
+parentRoom:Level01_Room01
+templateName:undefined]]>
+</userData>
+        </node>
+        <node name="Fspot05">
+            <scale x="1" y="1" z="1" />
+            <position x="59.2897" y="-35.0198" z="-50.7148" />
+            <rotation qx="-0.251606" qy="-0" qz="-0" qw="-0.96783" />
+            <light name="Fspot05" id="977" type="spot" castShadows="false" power="303.423">
+                <colourDiffuse r="1" g="0.964706" b="0.901961" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="549.81" constant="1" linear="1" quadric="1" />
+                <lightRange inner="1.67728" outer="1.89021" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room02
+templateName:undefined
+rotation:0.862271 0.506447 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni09">
+            <scale x="1" y="1" z="1" />
+            <position x="70.198" y="-48.3412" z="-5.21671" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni09" id="978" type="point" castShadows="false" power="325.426">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.9877" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni10">
+            <scale x="1" y="1" z="1" />
+            <position x="9.18728" y="-38.5358" z="2.58548" />
+            <rotation qx="-0.5" qy="0.5" qz="-0.5" qw="-0.5" />
+            <light name="Omni10" id="979" type="point" castShadows="false" power="325.64">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.1106" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+enabled:false
+templateName:undefined
+rotation:0.707107 0.0 0.707107 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni11">
+            <scale x="1" y="1" z="1" />
+            <position x="34.8217" y="-41.8926" z="-2.24992" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni11" id="980" type="point" castShadows="false" power="325.426">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.9877" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni12">
+            <scale x="1" y="1" z="1" />
+            <position x="48.2127" y="-49.9237" z="-42.9978" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni12" id="981" type="point" castShadows="false" power="52.8128">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="154.632" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Level01_Room02">
+            <scale x="1" y="1" z="1" />
+            <position x="47.1664" y="-63.7664" z="4.4223" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Level01_Room02" id="982" meshFile="Level01_Room02.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Level01_Room02
+meshName:Level01_Room02.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:ParentRoom
+size:170.82 210.538 258.112 
+cameraName:Camera01_Level02
+isRoom:true
+childNode1:Level01_Room02_Shape
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 47.1664 -63.7664 4.4223
+bodyType:Mesh
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="ActorsMaterial" />
+                </subentities>
+            </entity>
+            <node name="Level01_Room02_Shape">
+                <scale x="1" y="1" z="1" />
+                <position x="0" y="3.8147e-006" z="0" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Level01_Room02_Shape" id="1004" meshFile="Level01_Room02_Shape.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:Level01_Room02_Shape
+meshName:Level01_Room02_Shape.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:Level01_Room02
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 47.1664 -63.7664 0.0
+bodyType:Shape
+physicsMeshType:Convex
+parentRoom:default
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="ActorsMaterial" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Camera01_Level03">
+            <scale x="1" y="1" z="1" />
+            <position x="134.21" y="-52.5417" z="-45.1565" />
+            <rotation qx="7.18376e-005" qy="0.992701" qz="0.120602" qw="-0.00059131" />
+            <trackTarget nodeName="Camera01_Level03.Target">
+                <localDirection x="0" y="0" z="-1" />
+            </trackTarget>
+            <camera name="Camera01_Level03" id="983" fov="1.20147">
+                <clipping near="1" far="1000" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room03
+templateName:undefined]]>
+</userData>
+            </camera>
+        </node>
+        <node name="Camera01_Level03.Target" id="984">
+            <scale x="1" y="1" z="1" />
+            <position x="134.275" y="-66.1118" z="9.86812" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[
+parentRoom:Level01_Room01
+templateName:undefined]]>
+</userData>
+        </node>
+        <node name="Fspot06">
+            <scale x="1" y="1" z="1" />
+            <position x="144.831" y="-35.0198" z="-50.7148" />
+            <rotation qx="-0.251606" qy="-0" qz="-0" qw="-0.96783" />
+            <light name="Fspot06" id="985" type="spot" castShadows="false" power="303.423">
+                <colourDiffuse r="1" g="0.964706" b="0.901961" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="549.81" constant="1" linear="1" quadric="1" />
+                <lightRange inner="1.67728" outer="1.89021" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room03
+enabled:false
+templateName:undefined
+rotation:0.862271 0.506447 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni13">
+            <scale x="1" y="1" z="1" />
+            <position x="155.74" y="-48.3412" z="-5.21669" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni13" id="986" type="point" castShadows="false" power="325.426">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.9877" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni14">
+            <scale x="1" y="1" z="1" />
+            <position x="94.7289" y="-38.5358" z="2.58549" />
+            <rotation qx="-0.5" qy="0.5" qz="-0.5" qw="-0.5" />
+            <light name="Omni14" id="987" type="point" castShadows="false" power="325.64">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.1106" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+enabled:false
+templateName:undefined
+rotation:0.707107 0.0 0.707107 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni15">
+            <scale x="1" y="1" z="1" />
+            <position x="120.363" y="-41.8926" z="-2.24991" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni15" id="988" type="point" castShadows="false" power="325.426">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="26.9877" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Omni16">
+            <scale x="1" y="1" z="1" />
+            <position x="133.754" y="-49.9237" z="-42.9978" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="Omni16" id="989" type="point" castShadows="false" power="52.8128">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="154.632" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Level01_Room03">
+            <scale x="1" y="1" z="1" />
+            <position x="132.708" y="-63.7664" z="4.42231" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Level01_Room03" id="990" meshFile="Level01_Room03.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Level01_Room03
+meshName:Level01_Room03.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:ParentRoom
+size:170.82 210.538 258.112 
+cameraName:Camera01_Level03
+isRoom:true
+childNode1:Level01_Room03_Shape
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 132.708 -63.7664 4.42231
+bodyType:Mesh
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="ActorsMaterial" />
+                </subentities>
+            </entity>
+            <node name="Level01_Room03_Shape">
+                <scale x="1" y="1" z="1" />
+                <position x="0" y="0" z="0" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="Level01_Room03_Shape" id="1005" meshFile="Level01_Room03_Shape.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:Level01_Room03_Shape
+meshName:Level01_Room03_Shape.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:Level01_Room03
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 132.708 -63.7664 0.0
+bodyType:Shape
+physicsMeshType:Convex
+parentRoom:default
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="ActorsMaterial" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Mesh_Wall01">
+            <scale x="1" y="1" z="1" />
+            <position x="-16.358" y="-49.1609" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall01" id="1094" meshFile="Mesh_Wall01.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall01
+meshName:Mesh_Wall01.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -16.358 -49.1609 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Box01">
+            <scale x="1" y="1" z="1" />
+            <position x="-26.3366" y="-50.6289" z="10.9041" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Box01" id="1095" meshFile="Box01.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Box01
+meshName:Box01.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:plasterskcastle.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -26.3366 -50.6289 10.9041
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Column_Diffuse" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="door1">
+            <scale x="1" y="1" z="1" />
+            <position x="-44.2246" y="-55.787" z="2.42221" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <animations>
+                <animation name="DoorOpen" enable="true" loop="false" interpolationMode="spline" rotationInterpolationMode="spherical" length="1">
+                    <keyframe time="0">
+                        <translation x="-44.2246" y="-55.787" z="2.42221" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1">
+                        <translation x="-44.2246" y="-30.8504" z="2.42221" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+                <animation name="DoorClose" enable="true" loop="false" interpolationMode="spline" rotationInterpolationMode="spherical" length="1">
+                    <keyframe time="0">
+                        <translation x="-44.2246" y="-30.8504" z="2.42221" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1">
+                        <translation x="-44.2246" y="-55.8844" z="2.42221" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <entity name="door1" id="1100" meshFile="door1.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:door1
+meshName:door1.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+childNode1:door1Actor
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:true
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:sidewalksubtile.dds
+templateName:door1
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -44.2246 -55.8844 2.42221
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Floor_Diff" />
+                </subentities>
+            </entity>
+            <node name="door1Actor">
+                <scale x="1" y="1" z="1" />
+                <position x="0" y="0" z="0" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="door1Actor" id="1107" meshFile="door1Actor.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:door1Actor
+meshName:door1Actor.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:door1
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:sidewalksubtile.dds
+templateName:undefined
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -44.2246 -55.8844 0.0
+bodyType:Shape
+physicsMeshType:Convex
+parentRoom:undefined
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="Floor_Diff" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Box08">
+            <scale x="1" y="1" z="1" />
+            <position x="-82.7712" y="-26.0062" z="2.13258" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Box08" id="1104" meshFile="Box08.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Box08
+meshName:Box08.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+childNode1:actor01
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:plasterskcastle.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -82.7712 -26.0062 2.13258
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Column_Diffuse" />
+                </subentities>
+            </entity>
+            <node name="actor01">
+                <scale x="1" y="1" z="1" />
+                <position x="-1.52588e-005" y="-1.90735e-005" z="0" />
+                <rotation qx="0" qy="0" qz="0.211701" qw="0.977334" />
+                <entity name="actor01" id="1103" meshFile="actor01.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:actor01
+meshName:actor01.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:Box08
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:0.977334 0.0 0.0 -0.211701
+position: -82.7712 -26.0062 -0.211701
+bodyType:Shape
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="Standard_14" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Box09">
+            <scale x="1" y="1" z="1" />
+            <position x="-27.1027" y="-30.588" z="2.12978" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Box09" id="1106" meshFile="Box09.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Box09
+meshName:Box09.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+childNode1:actor03
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:plasterskcastle.dds
+templateName:Sphere01
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -27.1027 -30.588 2.12978
+bodyType:Mesh
+physicsMeshType:Convex
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Column_Diffuse" />
+                </subentities>
+            </entity>
+            <node name="actor03">
+                <scale x="1" y="1" z="1" />
+                <position x="0" y="0" z="0" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="actor03" id="1105" meshFile="actor03.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:actor03
+meshName:actor03.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:Box09
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -27.1027 -30.588 0.0
+bodyType:Shape
+physicsMeshType:Convex
+parentRoom:undefined
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="Standard_14" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="Mesh_Wall02">
+            <scale x="1" y="1" z="1" />
+            <position x="17.1382" y="-76.3402" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall02" id="1110" meshFile="Mesh_Wall02.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall02
+meshName:Mesh_Wall02.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 17.1382 -76.3402 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall09">
+            <scale x="1" y="1" z="1" />
+            <position x="17.1382" y="-49.1609" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall09" id="1111" meshFile="Mesh_Wall09.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall09
+meshName:Mesh_Wall09.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 17.1382 -49.1609 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall03">
+            <scale x="1" y="1" z="1" />
+            <position x="-49.8542" y="-76.3402" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall03" id="1112" meshFile="Mesh_Wall03.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall03
+meshName:Mesh_Wall03.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -49.8542 -76.3402 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall11">
+            <scale x="1" y="1" z="1" />
+            <position x="-49.8542" y="-49.1609" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall11" id="1113" meshFile="Mesh_Wall11.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall11
+meshName:Mesh_Wall11.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -49.8542 -49.1609 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="buttonMesh1">
+            <scale x="1" y="1" z="1" />
+            <position x="-26.3366" y="-51.6886" z="10.1034" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <animations>
+                <animation name="button1Open" enable="true" loop="false" interpolationMode="spline" rotationInterpolationMode="spherical" length="0.666667">
+                    <keyframe time="0">
+                        <translation x="-26.3366" y="-51.6886" z="10.1034" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.666667">
+                        <translation x="-26.3366" y="-51.6886" z="11.2574" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+                <animation name="button1Close" enable="true" loop="false" interpolationMode="spline" rotationInterpolationMode="spherical" length="0.666667">
+                    <keyframe time="0">
+                        <translation x="-26.3366" y="-51.6886" z="11.2574" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.666667">
+                        <translation x="-26.3366" y="-51.6886" z="10.1034" />
+                        <rotation qx="-0" qy="-0" qz="-0" qw="1" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <entity name="buttonMesh1" id="1114" meshFile="buttonMesh1.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:buttonMesh1
+meshName:buttonMesh1.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:true
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:sidewalksubtile.dds
+templateName:switch1
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -26.3366 -51.6886 10.1034
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Floor_Diff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="camAnim01">
+            <scale x="1.50377" y="1.50377" z="1.50377" />
+            <position x="-110.465" y="-8.81432" z="-53.35" />
+            <rotation qx="-0.67661" qy="0.242805" qz="0.253859" qw="0.647148" />
+            <animations>
+                <animation name="camAnimation01" enable="true" loop="true" interpolationMode="spline" rotationInterpolationMode="spherical" length="2.66667">
+                    <keyframe time="0">
+                        <translation x="-110.465" y="-8.81432" z="-53.35" />
+                        <rotation qx="-0.67661" qy="0.242805" qz="0.253859" qw="0.647148" />
+                        <scale x="1.50377" y="1.50377" z="1.50377" />
+                    </keyframe>
+                    <keyframe time="0.666667">
+                        <translation x="-77.2562" y="-33.2819" z="-61.4896" />
+                        <rotation qx="-0.70048" qy="0.169953" qz="0.17769" qw="0.669978" />
+                        <scale x="1.50377" y="1.50377" z="1.50377" />
+                    </keyframe>
+                    <keyframe time="1.1">
+                        <translation x="-50.7075" y="-52.9509" z="-61.4896" />
+                        <rotation qx="-0.716413" qy="0.0907288" qz="0.0948593" qw="0.685217" />
+                        <scale x="1.50377" y="1.50377" z="1.50377" />
+                    </keyframe>
+                    <keyframe time="1.33333">
+                        <translation x="-36.777" y="-57.9434" z="-61.4896" />
+                        <rotation qx="-0.720314" qy="0.0557123" qz="0.0582487" qw="0.688949" />
+                        <scale x="1.50377" y="1.50377" z="1.50377" />
+                    </keyframe>
+                    <keyframe time="2">
+                        <translation x="-3.42042" y="-57.9434" z="-61.4896" />
+                        <rotation qx="-0.716749" qy="-0.0882616" qz="-0.0922798" qw="0.68554" />
+                        <scale x="1.50377" y="1.50377" z="1.50377" />
+                    </keyframe>
+                    <keyframe time="2.66667">
+                        <translation x="52.7424" y="-57.9434" z="-17.3141" />
+                        <rotation qx="-0.556801" qy="-0.440612" qz="-0.460671" qw="0.532556" />
+                        <scale x="1.50377" y="1.50377" z="1.50377" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <entity name="camAnim01" id="1115" meshFile="camAnim01.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="VRayLight01">
+            <scale x="1" y="1" z="1" />
+            <position x="-4.03481" y="-53.2464" z="11.8808" />
+            <rotation qx="-0.999994" qy="-0" qz="-0" qw="-0.00354482" />
+            <light name="VRayLight01" id="1121" type="point" castShadows="true" power="0">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="1e+020" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+enabled:false
+templateName:undefined
+rotation:0.709609 -0.704596 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="VRayLight02">
+            <scale x="1" y="1" z="1" />
+            <position x="-33.8473" y="-71.3103" z="-31.2532" />
+            <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+            <light name="VRayLight02" id="1124" type="point" castShadows="true" power="0">
+                <colourDiffuse r="0" g="0" b="0" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="1e+020" constant="1" linear="0" quadric="0" />
+                <userData>
+                    <![CDATA[
+parentRoom:undefined
+enabled:false
+templateName:undefined
+rotation:1.0 0.0 0.0 0.0]]>
+</userData>
+            </light>
+        </node>
+        <node name="Mesh_Wall04">
+            <scale x="1" y="1" z="1" />
+            <position x="-83.3503" y="-49.1609" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall04" id="1125" meshFile="Mesh_Wall04.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall04
+meshName:Mesh_Wall04.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -83.3503 -49.1609 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall05">
+            <scale x="1" y="1" z="1" />
+            <position x="-116.847" y="-76.3402" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall05" id="1126" meshFile="Mesh_Wall05.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall05
+meshName:Mesh_Wall05.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -116.847 -76.3402 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall06">
+            <scale x="1" y="1" z="1" />
+            <position x="-83.3503" y="-76.3402" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall06" id="1127" meshFile="Mesh_Wall06.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall06
+meshName:Mesh_Wall06.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -83.3503 -76.3402 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall08">
+            <scale x="1" y="1" z="1" />
+            <position x="-83.3503" y="-76.3402" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall08" id="1128" meshFile="Mesh_Wall08.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall08
+meshName:Mesh_Wall08.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -83.3503 -76.3402 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall10">
+            <scale x="1" y="1" z="1" />
+            <position x="-116.847" y="-49.1609" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall10" id="1129" meshFile="Mesh_Wall10.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall10
+meshName:Mesh_Wall10.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -116.847 -49.1609 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall12">
+            <scale x="1" y="1" z="1" />
+            <position x="-116.847" y="-21.9815" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall12" id="1130" meshFile="Mesh_Wall12.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall12
+meshName:Mesh_Wall12.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -116.847 -21.9815 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall13">
+            <scale x="1" y="1" z="1" />
+            <position x="-83.3503" y="-21.9815" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall13" id="1131" meshFile="Mesh_Wall13.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall13
+meshName:Mesh_Wall13.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -83.3503 -21.9815 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall14">
+            <scale x="1" y="1" z="1" />
+            <position x="-49.8542" y="-21.9815" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall14" id="1132" meshFile="Mesh_Wall14.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall14
+meshName:Mesh_Wall14.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -49.8542 -21.9815 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall15">
+            <scale x="1" y="1" z="1" />
+            <position x="-16.358" y="-21.9815" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall15" id="1133" meshFile="Mesh_Wall15.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall15
+meshName:Mesh_Wall15.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -16.358 -21.9815 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall16">
+            <scale x="1" y="1" z="1" />
+            <position x="17.1382" y="-21.9815" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall16" id="1134" meshFile="Mesh_Wall16.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall16
+meshName:Mesh_Wall16.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 17.1382 -21.9815 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall17">
+            <scale x="1" y="1" z="1" />
+            <position x="-116.847" y="-103.52" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall17" id="1135" meshFile="Mesh_Wall17.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall17
+meshName:Mesh_Wall17.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -116.847 -103.52 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall18">
+            <scale x="1" y="1" z="1" />
+            <position x="-83.3503" y="-103.52" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall18" id="1136" meshFile="Mesh_Wall18.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall18
+meshName:Mesh_Wall18.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -83.3503 -103.52 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall19">
+            <scale x="1" y="1" z="1" />
+            <position x="-49.8542" y="-103.52" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall19" id="1137" meshFile="Mesh_Wall19.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall19
+meshName:Mesh_Wall19.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -49.8542 -103.52 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall20">
+            <scale x="1" y="1" z="1" />
+            <position x="-16.358" y="-103.52" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall20" id="1138" meshFile="Mesh_Wall20.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall20
+meshName:Mesh_Wall20.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -16.358 -103.52 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Mesh_Wall21">
+            <scale x="1" y="1" z="1" />
+            <position x="17.1382" y="-103.52" z="11.5615" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Mesh_Wall21" id="1139" meshFile="Mesh_Wall21.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:Mesh_Wall21
+meshName:Mesh_Wall21.mesh
+soundType:predefined
+soundSize:light
+soundName:stone
+shapeType:EditableMesh
+parentNode:undefined
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:skingradstone02.dds
+templateName:undefined
+static:yes
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: 17.1382 -103.52 11.5615
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="StoneWallDiff" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Fspot03">
+            <scale x="1" y="1" z="1" />
+            <position x="-95.3762" y="-39.6611" z="-10.8854" />
+            <rotation qx="-0.265943" qy="-0.216649" qz="0.0614694" qw="-0.937315" />
+            <animations>
+                <animation name="light01" enable="true" loop="false" interpolationMode="spline" rotationInterpolationMode="spherical" length="3">
+                    <keyframe time="0">
+                        <translation x="-95.3762" y="-39.6611" z="-10.8854" />
+                        <rotation qx="-0.265943" qy="-0.216649" qz="0.0614693" qw="-0.937315" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="0.666667">
+                        <translation x="-86.7117" y="-39.6611" z="-51.0552" />
+                        <rotation qx="-0.270549" qy="-0.127444" qz="0.0361594" qw="-0.953548" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.16667">
+                        <translation x="-56.4344" y="-39.6611" z="-51.0552" />
+                        <rotation qx="-0.27295" qy="-0.0055332" qz="0.00156993" qw="-0.962011" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="1.66667">
+                        <translation x="-32.1737" y="-39.6611" z="-51.0552" />
+                        <rotation qx="-0.268499" qy="0.173105" qz="-0.0491149" qw="-0.946325" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.16667">
+                        <translation x="-14.4018" y="-39.6611" z="-33.396" />
+                        <rotation qx="-0.268499" qy="0.173105" qz="-0.0491149" qw="-0.946325" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="2.66667">
+                        <translation x="-14.4018" y="-39.6611" z="-33.396" />
+                        <rotation qx="-0.268499" qy="0.173105" qz="-0.0491149" qw="-0.946325" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                    <keyframe time="3">
+                        <translation x="-76.6413" y="-39.6611" z="-23.7862" />
+                        <rotation qx="-0.252699" qy="-0.363675" qz="0.103185" qw="-0.890638" />
+                        <scale x="1" y="1" z="1" />
+                    </keyframe>
+                </animation>
+            </animations>
+            <light name="Fspot03" id="1141" type="spot" castShadows="false" power="582.572">
+                <colourDiffuse r="1" g="0.964706" b="0.901961" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="549.81" constant="1" linear="0" quadric="0" />
+                <lightRange inner="1.67728" outer="1.89021" />
+                <userData>
+                    <![CDATA[
+parentRoom:Level01_Room01
+templateName:light01
+rotation:0.808462 0.451091 -0.33012 -0.184195]]>
+</userData>
+            </light>
+        </node>
+        <node name="blade">
+            <scale x="1" y="1" z="1" />
+            <position x="-28.1771" y="-63.6252" z="4.29972" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="blade" id="1159" meshFile="blade.mesh" castShadows="true" receiveShadows="true">
+                <userData>
+                    <![CDATA[entityName:blade
+meshName:blade.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:EditableMesh
+childNode1:sword1_actor01
+childNode2:sword1_actor
+parentNode:undefined
+isWeapon:true
+isPickableItem:true
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+texU_Tiling:1.0
+texV_Tiling:1.0
+texFileName:metalsmall.dds
+templateName:katana
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -28.1771 -63.6252 4.29972
+bodyType:Mesh
+physicsMeshType:Triangle
+parentRoom:undefined
+]]>
+</userData>
+                <subentities>
+                    <subentity index="0" materialName="Column_Diffuse" />
+                    <subentity index="1" materialName="Column_Diffuse" />
+                </subentities>
+            </entity>
+            <node name="sword1_actor">
+                <scale x="0.9199" y="0.9199" z="0.9199" />
+                <position x="-0.37772" y="0.0754929" z="-4.17449" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="sword1_actor" id="1148" meshFile="sword1_actor.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:sword1_actor
+meshName:sword1_actor.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:Box
+size:0.435318 0.275398 11.6716 
+parentNode:blade
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -28.5549 -63.5497 0.0
+bodyType:Shape
+parentRoom:undefined
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="Standard_14" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="sword1_actor01">
+                <scale x="0.9199" y="0.9199" z="0.9199" />
+                <position x="-0.274588" y="0.105442" z="-1.77332" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="sword1_actor01" id="1149" meshFile="sword1_actor01.mesh" castShadows="true" receiveShadows="true">
+                    <userData>
+                        <![CDATA[entityName:sword1_actor01
+meshName:sword1_actor01.mesh
+soundType:undefined
+soundSize:undefined
+soundName:undefined
+shapeType:Box
+size:1.00532 0.965398 0.183968 
+parentNode:blade
+isWeapon:undefined
+isPickableItem:undefined
+isDoor:undefined
+isSwitch:undefined
+isElevator:undefined
+isQuestItem:undefined
+isPlayer:undefined
+isHumanoid:undefined
+isSmallCreature:undefined
+templateName:undefined
+mass:10.0
+density:10.0
+angularDamping: 0.05
+linearDamping: 0.0
+restitution: 0.8
+staticFriction: 1.0
+dynamicFriction: 1.0
+rotation:1.0 0.0 0.0 0.0
+position: -28.4517 -63.5197 0.0
+bodyType:Shape
+parentRoom:undefined
+]]>
+</userData>
+                    <subentities>
+                        <subentity index="0" materialName="Standard_14" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+    </nodes>
+</scene>
